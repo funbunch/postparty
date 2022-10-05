@@ -1,5 +1,5 @@
 import Meta from '../components/Meta'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.css''
 
 const news = () => {
   return (

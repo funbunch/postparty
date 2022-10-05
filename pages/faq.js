@@ -2,10 +2,10 @@ import Meta from "../components/Meta"
 
 const faq = () => {
   return (
-      <div>
-         <Meta title='FAQ' />
-        <h1>FAQ</h1>
-      </div>
+    <div>
+        <Meta title='FAQ' />
+      <h1>FAQ</h1>
+    </div>
   
   )
 }

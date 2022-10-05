@@ -24,11 +24,11 @@ const Navbar = styled.nav `
     align-items: center;
     display: inline-block;
 
-    /* &:last-child {
+    &:last-child {
       margin-left: auto;
-    } */
-    & img {
-      padding-right: 120px;
+    }
+  & img {
+    padding-right: 120px;
     }
   }
   & a {
@@ -42,6 +42,7 @@ const Navbar = styled.nav `
     text-align: center;
     font-size: 16px;
     border: 0;
+    align-self: flex-end;
   }
 `
 
