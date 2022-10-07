@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import styled from 'styled-components'
-import secondPanel from '../public/img/2panel.png'
+import secondPanel from '../public/img/blade2.png'
 
 export const Secondpanel = () => {
   const Container = styled.div `
@@ -9,9 +9,16 @@ export const Secondpanel = () => {
   max-width: 100%;
   margin: 0 auto;
 `
+  const Imagewrap = styled.div `
+  margin-top: -10px;
+  z-index: 1000;
+  `
+
 return (
 <Container>
-  <Image src={secondPanel} width={1920} /> 
+  <Imagewrap>
+    <Image src={secondPanel} width={1920} height={957} /> 
+  </Imagewrap>
 </Container>
 
   

@@ -6,6 +6,7 @@ import styles from '../styles/Home.module.css'
 import styled from 'styled-components'
 import { Clippanel } from '../components/Clippanel'
 import { Savepanel } from '../components/Savepanel'
+import { Logopanels } from '../components/Logopanels'
 // import topPanel from '../public/img/toppanel1.jpg'
 // import secondPanel from '../public/img/2panel.png'
 
@@ -24,17 +25,18 @@ export default function Home() {
       <Header>Testing</Header>  
       <Toppanel /> 
       <Secondpanel style="margin-top: -5px" />
-      <Clippanel />
-      <Savepanel />
+      <Logopanels />
+      {/* <Clippanel />
+      <Savepanel /> */}
       {/* <Image src={topPanel} width={1920} /> 
       <Image src={secondPanel} width={1920} /> 
       <Image src={secondPanel} width={1920} />  */}
-      <div className={styles.diagonalBoxPink}>
+      {/* <div className={styles.diagonalBoxPink}>
           <div className={styles.content}>Test Skew</div>
       </div>
       <div className={styles.diagonalBoxBlack}>
           <div className={styles.content}>Test Skew</div>
-      </div>
+      </div> */}
       <main className={styles.main}>
         <h1 className={styles.title}>
   

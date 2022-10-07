@@ -8,11 +8,11 @@ export const Toppanel = () => {
   width: 1920px;
   max-width: 100%;
   margin: 0 auto;
-  transform: skewY(-2deg);
+  /* transform: skewY(-2deg); */
 `
 return (
 <Container>
-  <Image src={topPanel} width={1920} /> 
+  <Image src={topPanel} width={1920} height={957} />
 </Container>
 
   

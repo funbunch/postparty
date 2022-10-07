@@ -9,6 +9,7 @@ const Meta = ({ title, keywords, description }) => {
       <meta charSet='utf-8' />
       <link rel='icon' href='/favicon.ico' />
       {/* <link rel="stylesheet" href="https://use.typekit.net/njb4mad.css" /> */}
+      <link rel="stylesheet" href="https://use.typekit.net/njb4mad.css"></link>
       <title>{title}</title>
     </Head>
   )
