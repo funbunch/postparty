@@ -10,7 +10,7 @@ export const Secondpanel = () => {
   margin: 0 auto;
 `
   const Imagewrap = styled.div `
-  margin-top: -10px;
+  margin-top: -70px;
   z-index: 1000;
   `
 

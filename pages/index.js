@@ -22,12 +22,10 @@ const Header = styled.h1 `
 export default function Home() {
   return (
     <Container> 
-      <Header>Testing</Header>  
       <Toppanel /> 
-      <Secondpanel style="margin-top: -5px" />
-      <Logopanels />
-      {/* <Clippanel />
-      <Savepanel /> */}
+      <Secondpanel />
+      <Clippanel />
+      {/* <Savepanel /> */}
       {/* <Image src={topPanel} width={1920} /> 
       <Image src={secondPanel} width={1920} /> 
       <Image src={secondPanel} width={1920} />  */}
