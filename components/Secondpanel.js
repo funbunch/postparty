@@ -1,25 +1,29 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import styled from 'styled-components'
+import secondPanelMob from '../public/img/blade2-mob@2x.png'
 import secondPanel from '../public/img/blade2.png'
 
 export const Secondpanel = () => {
-  const Container = styled.div `
-  width: 1920px;
-  max-width: 100%;
-  margin: 0 auto;
-`
-  const Imagewrap = styled.div `
-  margin-top: -70px;
-  z-index: 1000;
-  `
+//   const Container = styled.div `
+//   width: 1920px;
+//   max-width: 100%;
+//   margin: 0 auto;
+// `
+//   // const Imagewrap = styled.div `
+  // margin-top: -70px;
+  // z-index: 1000;
+  // `
 
-return (
-<Container>
-  <Imagewrap>
-    <Image src={secondPanel} width={1920} height={957} /> 
-  </Imagewrap>
-</Container>
+  return (
+  <div>
+    <div className="-mt-170 z-100 md:hidden">
+        <Image src={secondPanelMob} width={768} height={1371} />
+      </div>
+      <div className="hidden md:block">
+        <Image src={secondPanel} width={1920} height={957} /> 
+      </div>
+  </div>
 
   
 )

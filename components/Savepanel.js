@@ -4,22 +4,22 @@ import styled from 'styled-components'
 import savePanel from '../public/img/blade4.png'
 
 export const Savepanel = () => {
-  const Container = styled.div `
-  width: 1920px;
-  max-width: 100%;
-  margin: 0 auto;
-`
-const Imagewrap = styled.div `
-margin-top: -85px;
-z-index: 1500;
-`
+//   const Container = styled.div `
+//   width: 1920px;
+//   max-width: 100%;
+//   margin: 0 auto;
+// `
+// const Imagewrap = styled.div `
+// margin-top: -85px;
+// z-index: 1500;
+// `
 
-return (
-<Container>
-  <Imagewrap>
-    <Image src={savePanel} width={1920} height={957} />
-  </Imagewrap> 
-</Container>
+  return (
+  <div>
+    <div className='hidden md:block'>
+      <Image src={savePanel} width={1920} height={957} />
+    </div> 
+  </div>
 
   
 )
