@@ -48,7 +48,7 @@ const Navbar = styled.nav `
 
 const Nav = () => {
   return (
-    <Navbar>
+    <nav>
       <ul>
         <li>
           <Link href="/">
@@ -57,7 +57,7 @@ const Nav = () => {
         </li>
         <li>
           <Link href="/news">
-          <a>News</a>
+          <a className="text-3xl font-bold underline">News</a>
         </Link>
         </li>
     
@@ -71,7 +71,7 @@ const Nav = () => {
         </li>
       </ul>
       
-    </Navbar>
+    </nav>
   )
 }
 
