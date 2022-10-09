@@ -12,18 +12,18 @@ import { Footertop } from '../components/Footertop'
 // import topPanel from '../public/img/toppanel1.jpg'
 // import secondPanel from '../public/img/2panel.png'
 
-const Container = styled.div `
-  width: 1920px;
-  max-width: 100%;
-  margin: 0 auto;
-`
+// const Container = styled.div `
+//   width: 1920px;
+//   max-width: 100%;
+//   margin: 0 auto;
+// `
 
 const Header = styled.h1 `
   color:#ffffff;
 `
 export default function Home() {
   return (
-    <Container> 
+    <> 
       <Toppanel /> 
       <Secondpanel />
       <Clippanel />
@@ -49,7 +49,7 @@ export default function Home() {
       <footer className={styles.footer}>
 
       </footer>
-    </Container> 
+    </> 
     
   )
 }
