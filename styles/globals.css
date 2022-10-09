@@ -11,6 +11,10 @@ body {
   background-color: #000;
 }
 
+nav {
+  background-color: #202020; 
+}
+
 /* Hamburger menu */
 .hamburger {
   cursor: pointer;
@@ -28,54 +32,34 @@ body {
   width: 54px;
 }
 
-.menu a {
+.menu li {
   border-color: #908e8e;
 }
 
-
-
-.hamburger-top,
-.hamburger-middle,
-.hamburger-bottom {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 24px;
-  height: 2px;
-  background: #fff;
+/* .image-wrap {
+  width: 100%;
 }
+  .image-wrap > div {
+    position: unset !important;
+  }
 
-.hamburger-middle {
-  transform: translateY(7px)
-}
-.hamburger-bottom {
-  transform:  translateY(14px);
-}
+  .image {
+    object-fit: contain;
+    width: 100% !important;
+    position: relative !important;
+    height: unset !important;
+  }
+
+ */
 
 .dl-btn-mob { 
   background-color: #278eff;
   color:#fff;
 }
 
-.active {
-  transform: rotate(90deg);
-  transform: translateY(0px);
+.dl-btn-d {
+  background-color: #500096;
 }
-
-.active .hamburger-top {
-  transform: rotate(45deg) translateY(6px) translate(6px);
-}
-
-.active .hamburger-middle {
-  display: none;
-}
-
-.active .hamburger-bottom {
-  transform: rotate(-45deg) translateY(6px) translate(-6px);
-}
-
-
-
 
 /* h2 {
   font-family: interstate, sans-serif;
