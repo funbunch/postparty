@@ -21,7 +21,7 @@ export const Clippanel = () => {
 //   z-index: 1500;
 //   `
 
-  return (
+    return (
     <div>
       <div className="-mt-28 z-20 md:hidden">
         <Image src={clipPanelMob} width={768} height={1733} />
@@ -30,7 +30,6 @@ export const Clippanel = () => {
         <Image src={clipPanel} width={1920} height={957} />
       </div>
     </div>
-
   )
 
 }
