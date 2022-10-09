@@ -28,51 +28,10 @@ body {
   width: 54px;
 }
 
-.menu a {
-  border-color: #908e8e;
-}
-
-.hamburger-top,
-.hamburger-middle,
-.hamburger-bottom {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 24px;
-  height: 2px;
-  background: #fff;
-}
-
-.hamburger-middle {
-  transform: translateY(7px)
-}
-.hamburger-bottom {
-  transform:  translateY(14px);
-}
-
 .dl-btn-mob { 
   background-color: #278eff;
   color:#fff;
 }
-
-.active {
-  transform: rotate(90deg);
-  transform: translateY(0px);
-}
-
-.active .hamburger-top {
-  transform: rotate(45deg) translateY(6px) translate(6px);
-}
-
-.active .hamburger-middle {
-  display: none;
-}
-
-.active .hamburger-bottom {
-  transform: rotate(-45deg) translateY(6px) translate(-6px);
-}
-
-
 
 
 /* h2 {
