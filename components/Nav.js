@@ -10,11 +10,10 @@ const Nav = () => {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full relative">
-    <div className="justify-between md:items-center md:flex md:px-8">
-      <div>
+    <nav className="w-full relative md:h-[70px] md:flex md:items-center ">
+    <div className="justify-between md:w-full md:items-center md:flex md:pl-8">
         <div className="flex items-center justify-between md:py-5 md:block">
-          <a className="py-2.5 pl-5" href="#">
+          <a className="py-2.5 md:py-0 pl-5" href="#">
           <Image src={logo} alt="postparty Logo" width={214} height={41} />
           </a>
           <div className="md:hidden">
@@ -54,14 +53,12 @@ const Nav = () => {
             </button>
           </div>
         </div>
-      </div>
-      <div>
         <div
           className={`flex-1 justify-self-center md:block md:pb-0 md:mt-0 ${
             navbar ? 'block' : 'hidden'
           }`} 
         >
-          <ul className="menu items-center md:flex md:justify-start md:space-x-6 md:space-y-0 text-sm pt-2 tracking-wide">
+          <ul className="menu md:bg-transparent items-center md:flex md:justify-center text-sm md:text-base pt-2 md:pt-0 tracking-wide">
             <li className="border-b border-btext-white uppercase py-2.5 pl-7 md:hidden">
               <Link href="/">
                 <a>Home</a>
@@ -73,12 +70,11 @@ const Nav = () => {
               </Link>
             </li>
             <li className="text-white uppercase h-8"></li>
-            <li className="bg-[#278eff] md:bg-[#500096] py-5 text-center text-white uppercase">
+            <li className="bg-[#278eff] md:bg-[#500096] md:ml-auto md:px-14 py-5 text-center text-white uppercase">
               <a>Download</a>
             </li>  
           </ul>
         </div>
-      </div>
     </div>
   </nav>
   )
