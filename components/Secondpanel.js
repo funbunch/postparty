@@ -20,7 +20,7 @@ export const Secondpanel = () => {
     <div className="-mt-170 z-100 md:hidden">
         <Image src={secondPanelMob} width={768} height={1371} />
       </div>
-      <div className="hidden md:block">
+      <div className="-mt-170 z-100 hidden md:block">
         <Image src={secondPanel} width={1920} height={957} /> 
       </div>
   </div>
