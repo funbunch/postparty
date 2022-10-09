@@ -11,10 +11,6 @@ body {
   background-color: #000;
 }
 
-nav {
-  background-color: #202020; 
-}
-
 /* Hamburger menu */
 .hamburger {
   cursor: pointer;
@@ -32,34 +28,11 @@ nav {
   width: 54px;
 }
 
-.menu li {
-  border-color: #908e8e;
-}
-
-/* .image-wrap {
-  width: 100%;
-}
-  .image-wrap > div {
-    position: unset !important;
-  }
-
-  .image {
-    object-fit: contain;
-    width: 100% !important;
-    position: relative !important;
-    height: unset !important;
-  }
-
- */
-
 .dl-btn-mob { 
   background-color: #278eff;
   color:#fff;
 }
 
-.dl-btn-d {
-  background-color: #500096;
-}
 
 /* h2 {
   font-family: interstate, sans-serif;

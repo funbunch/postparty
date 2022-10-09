@@ -23,7 +23,7 @@ export const Clippanel = () => {
 
   return (
     <div>
-      <div className="md:hidden">
+      <div className="-mt-28 z-20 md:hidden">
         <Image src={clipPanelMob} width={768} height={1733} />
       </div>
       <div className="hidden md:block">

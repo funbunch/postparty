@@ -17,10 +17,10 @@ export const Secondpanel = () => {
 
   return (
   <div>
-    <div className="-mt-170 z-100 md:hidden">
+    <div className="-mt-40 z-40 md:hidden relative">
         <Image src={secondPanelMob} width={768} height={1371} />
       </div>
-      <div className="hidden md:block">
+      <div className="-mt-16 z-40 hidden md:block relative">
         <Image src={secondPanel} width={1920} height={957} /> 
       </div>
   </div>
