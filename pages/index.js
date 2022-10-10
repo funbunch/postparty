@@ -40,11 +40,11 @@ export default function Home() {
       <div className={styles.diagonalBoxBlack}>
           <div className={styles.content}>Test Skew</div>
       </div> */}
-      <main className={styles.main}>
+      {/* <main className={styles.main}>
         <h1 className={styles.title}>
   
         </h1>
-      </main>
+      </main> */}
       <Footer />
       <footer className={styles.footer}>
 
