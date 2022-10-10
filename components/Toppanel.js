@@ -57,7 +57,7 @@ return (
         </div>
         <div className="cta hidden md:block pb-12">
           <a href="">
-          <Image src={ctaVideo} width={195} height={50} />
+          <Image src={ctaVideo} width={195} height={50} layout='intrinsic' />
         </a>
         </div>
         <div className="badge w-[30%]">
