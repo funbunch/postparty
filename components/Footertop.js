@@ -15,7 +15,7 @@ export const Footertop = () => {
 //  ` 
   return (
     <>
-      <div className='-mt-8 relative'>
+      <div className='-mt-8 md:hidden relative'>
         <Image src={footerTop} width={414} height={308} />
         <div className="content px-12">
             <div className="logo absolute top-10 left-[39%]">
