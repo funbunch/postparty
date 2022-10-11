@@ -27,7 +27,7 @@ export const Clippanel = () => {
         <div className="-mt-28 z-20 md:hidden">
           <Image src={clipPanelMob} width={768} height={1733} />
         </div>
-        <div className="hidden md:block">
+        <div className="-mt-[93] hidden md:block">
           <Image src={clipPanel} width={1920} height={957} />
         </div>
       </div>

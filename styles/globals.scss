@@ -21,6 +21,8 @@ h2 {
   font-weight: 800;
 }
 /* desktop resize content */
+
+
 @media screen and (min-width: 767.98px)and (max-width: 1227px) {
   .content {
     max-width: 47%;
@@ -64,13 +66,36 @@ h2 {
     .content {
       max-width: 43%;
       left: 5%;
+  
+      h2 { 
+        padding-bottom: 16px;
+      }
+      p { 
+        padding-bottom: 14px;
+      }
+      
     }
-    h2 { 
-      padding-bottom: 16px;
+    .content-second-panel {
+      max-width: 40%;
+      right:-18%;
+      top:50%;
+      transform: translate(-50%, -50%);
+  
+      h2 {
+        font-size: 55px;
+        line-height: 66px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 30px;
+      }
+  
     }
-    p { 
-      padding-bottom: 14px;
-    }
+
+
+
+
+  
     /* .apple, .google {
       width: 100%;
     } */
