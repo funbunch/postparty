@@ -1,7 +1,7 @@
 .container {
   /* padding: 0 2rem; */
 }
-
+/* 
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -10,11 +10,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 
-.right {
+/* .right {
   margin-left: auto;
-}
+} */
 /* .diagonalBox {
 
 } */

@@ -28,9 +28,9 @@ return (
     <div className='hidden md:block relative'>
       <Image src={topPanel} width={1920} height={913} />
     </div>  
-    <div className="content absolute px-12 top-3 md:left-[17%] md:top-[60px] md:w-full md:max-w-[600px]">
+    <div className="content absolute px-12 top-7 md:w-full]">
       <div className="content-col z-40">
-        <div className="system-logos-mob md:hidden">
+        <div className="system-logos-mob pb-10 md:hidden">
           <div className="ps5 inline-block pr-5">
               <Image src={ps5Mob} width={44} height={15} />
           </div>
@@ -40,15 +40,15 @@ return (
         </div>
         <div className="system-logos hidden md:block">
           <div className="ps5 inline-block pr-11">
-              <Image src={ps5} width={118} height={27} />
+            <a href=""><Image src={ps5} width={118} height={27} /></a>
           </div>
           <div className="xbox inline-block">
-            <Image src={xbox} width={107} height={33} />
+            <a href="http://"><Image src={xbox} width={107} height={33} /></a>
           </div>
         </div>
-        <h2 className="pt-11 pb-7 md:pb-10 md:text-[55px] leading-[1.2]">Relive Your Gaming<br />Greatness Again<br />and Again
+        <h2 className="pb-6 leading-[1.2]">Relive Your Gaming<br />Greatness Again<br />and Again
         </h2>
-        <p className="text-base md:pb-10">Your greatest gaming moments shouldn't be fleeting. They should be saved and savored like fine wine and fancy cheeses. All you have to do is connect the Postparty mobile app to your PS5 or XBOX to capture your most awesome moments, build a vast collection of your greatest hits and share them via social media with just a few clicks.
+        <p className="">Your greatest gaming moments shouldn't be fleeting. They should be saved and savored like fine wine and fancy cheeses. All you have to do is connect the Postparty mobile app to your PS5 or XBOX to capture your most awesome moments, build a vast collection of your greatest hits and share them via social media with just a few clicks.
         </p>
         <div className="cta-mob text-center md:hidden pt-7 pb-12">
           <a href="">
@@ -60,13 +60,13 @@ return (
           <Image src={ctaVideo} width={195} height={50} layout='intrinsic' />
         </a>
         </div>
-        <div className="badge w-[30%]">
-        <div className="apple pr-7 inline-block">
-          <Image src={appleBadge} width={161} height={53} />
-        </div>
-        <div className="google inline-block">
-          <Image src={googleBadge} width={182} height={54} />
-        </div>
+        <div className="badge">
+          <div className="apple pr-7 inline-block">
+            <Image src={appleBadge} width={161} height={53} />
+          </div>
+          <div className="google inline-block">
+            <Image src={googleBadge} width={182} height={54} />
+          </div>
         </div>
       </div>
       <div className="phone md:hidden absolute top-[35rem] left-[40px]">
