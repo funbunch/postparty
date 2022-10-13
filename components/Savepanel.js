@@ -6,7 +6,7 @@ export const Savepanel = () => {
 
   return (
   <div>
-    <div className='hidden md:block md:mt-[-65px] lg:mt-[-85px]'>
+    <div className='hidden md:block md:mt-[-46px] lg:mt-[-85px]'>
       <Image src={savePanel} width={1920} height={957} />
     </div> 
   </div>

@@ -6,7 +6,7 @@ export const Sharepanel = () => {
 
   return (
     <div>
-      <div className='hidden md:block md:mt-[-64px] lg:mt-[-98px]'>
+      <div className='hidden md:block md:mt-[-75px] lg:mt-[-98px]'>
         <Image src={sharePanel} width={1920} height={957} />
       </div>
     </div>

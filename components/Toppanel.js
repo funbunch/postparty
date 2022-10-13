@@ -67,10 +67,10 @@ return (
           </div>
           <div className="badgeMob text-center md:text-left lg:hidden">
             <div className="apple lg:hidden pr-5 inline-block">
-              <Image src={appleBadge} width={92} height={30} />
+              <Image src={appleBadgeMob} width={92} height={30} />
             </div>
             <div className="google inline-block">
-              <Image src={googleBadge} width={103} height={30} />
+              <Image src={googleBadgeMob} width={103} height={30} />
             </div>
           </div>
           <div className="badge hidden text-center lg:block md:text-left">
