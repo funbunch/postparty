@@ -50,9 +50,9 @@ return (
             </div>
           </div>
           <div className="text md:w-[53%] lg:w-2/6 xl:w-4/12">
-            <h2 className="pb-6 md:text-2xl leading-[1.2]">Relive Your Gaming<br />Greatness Again<br />and Again
+            <h2 className="pb-6 md:text-2xl lg:text-3xl leading-[1.2]">Relive Your Gaming<br />Greatness Again<br />and Again
             </h2>
-            <p className="md:pb-4 lg:pb-10">Your greatest gaming moments shouldn't be fleeting. They should be saved and savored like fine wine and fancy cheeses. All you have to do is connect the Postparty mobile app to your PS5 or XBOX to capture your most awesome moments, build a vast collection of your greatest hits and share them via social media with just a few clicks.
+            <p className="md:text-sm lg:text-base md:pb-4 lg:pb-10">Your greatest gaming moments shouldn't be fleeting. They should be saved and savored like fine wine and fancy cheeses. All you have to do is connect the Postparty mobile app to your PS5 or XBOX to capture your most awesome moments, build a vast collection of your greatest hits and share them via social media with just a few clicks.
             </p>
           </div>
           <div className="cta-mob text-center md:hidden pt-7 pb-7">
