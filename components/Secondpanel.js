@@ -37,7 +37,7 @@ export const Secondpanel = () => {
       </div>
       <div className="-mt-16 z-40 hidden md:block relative">
         <Image src={secondPanel} width={1920} height={957} /> 
-        <div className="content-second-panel absolute top-2 md:top-[16%] md:left-[60%] md:w-[34%] lg:top-[47%] lg:left-[73%]">
+        <div className="content-second-panel absolute top-2 md:top-[16%] md:left-[60%] md:w-[34%] lg:top-[25%] lg:left-[62%]">
           {/* <div className="device absolute top-10">
             <Image src={deviceLockup} width={860} height={612} layout='intrinsic' />
           </div> */}

@@ -2,6 +2,16 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}  
+
 html,
 body {
   padding: 0;
@@ -20,41 +30,16 @@ h2 {
   line-height: 37px;
   font-weight: 800;
 }
+
 /* desktop resize content */
-
-
 @media screen and (min-width: 828px)and (max-width: 1227px) {
-  .overlay {
-  //   min-height: 0;  /* NEW */
-  // min-width: 0; 
-  // width: 40%; 
-  }
-  
-
   h2 { 
     font-size: 28px;
   }
 
 }
   @media (min-width: 1228px) {
-    .content {
-      // max-width: 43%;
-      // left: 5%;
-  
-      // h2 { 
-      //   padding-bottom: 16px;
-      // }
-      // p { 
-      //   padding-bottom: 14px;
-      // }
-      
-    }
-    .content-second-panel {
-      max-width: 40%;
-      right:-18%;
-      top:50%;
-      transform: translate(-50%, -50%);
-  
+    .content-second-panel {  
       h2 {
         font-size: 55px;
         line-height: 66px;
@@ -65,65 +50,11 @@ h2 {
       }
   
     }
-  // .cta img {
-  //   object-fit: cover !important;
-  // width: 100% !important;
-  // max-height: 100%;
-  // }
-
-
-
-  .content-second-panel {
-    max-width: 80%;
-    right:50%;
-    top:50%;
-    transform: translate(-50%, -50%);
-
-  }
-  .system-logos {
-    padding-bottom: 10px;
-  }
-  // h2 {
-  //   font-size: 28px;
-  //   padding-bottom: 14px;
-  //   }
-  // p {
-  //   font-size: 14px;
-  //   padding-bottom: 14px;
-  // }
-  .cta {
-    width: 40%;
-    padding-bottom: 10px;
-  }
-  // .apple {
-  //   padding-right: 10px;
-  //   width: 30%;
-  // }
-  // .google {
-  //   width: 30%;
-  // }
-
   }
 
   @media (min-width: 1228px) {
-    .content {
-      // max-width: 43%;
-      // left: 5%;
-  
-      // h2 { 
-      //   padding-bottom: 16px;
-      // }
-      // p { 
-      //   padding-bottom: 14px;
-      // }
-      
-    }
+
     .content-second-panel {
-
-
-      top:50%;
-
-  
       h2 {
         font-size: 55px;
         line-height: 66px;
@@ -135,14 +66,6 @@ h2 {
   
     }
 
-
-
-
-  
-    /* .apple, .google {
-      width: 100%;
-    } */
-  
   }
 
 /* Hamburger menu */
@@ -174,11 +97,3 @@ p.text-mob {
   line-height: 21px;
 }
   
-/* a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}  */
