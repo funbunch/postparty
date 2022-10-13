@@ -16,7 +16,7 @@ import styled from "styled-components";
 
 export const Footer = () => {
   return (
-    <div className="px-10 py-11">
+    <div className="px-10 py-11 lg:px-96">
       <Link href="/Eula">
         <a className="uppercase block py-5">Eula</a>
       </Link>

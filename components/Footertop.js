@@ -27,7 +27,7 @@ export const Footertop = () => {
             </div>
         </div>
       </div>
-      <div className="hidden md:block relative">
+      <div className="hidden md:block mt-[-6px] relative">
         <Image src={footerTop} width={1920} />
       </div>
     </>
