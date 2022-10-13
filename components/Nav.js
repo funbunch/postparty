@@ -13,7 +13,7 @@ const Nav = () => {
     <nav className="w-full relative md:h-[70px] md:flex md:items-center ">
     <div className="justify-between md:w-full md:items-center md:flex md:pl-8">
         <div className="flex items-center justify-between md:py-5 md:block">
-          <a className="py-2.5 md:py-0 pl-5" href="#">
+          <a className="flex items-center py-2.5 md:py-0 pl-5" href="#">
           <Image src={logo} alt="postparty Logo" width={214} height={41} />
           </a>
           <div className="md:hidden">
