@@ -29,21 +29,7 @@ h2 {
   // min-width: 0; 
   // width: 40%; 
   }
-  .image-container {
-
-    width: 100%;
   
-    > div {
-      position: unset !important;
-    }
-  
-    .image {
-      object-fit: contain;
-      width: 100% !important;
-      position: relative !important;
-      height: unset !important;
-    }
-  }
 
   h2 { 
     font-size: 28px;
@@ -88,10 +74,10 @@ h2 {
 
 
   .content-second-panel {
-    // max-width: 80%;
-    // right:50%;
-    // top:50%;
-    // transform: translate(-50%, -50%);
+    max-width: 80%;
+    right:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
 
   }
   .system-logos {
@@ -133,19 +119,19 @@ h2 {
       
     }
     .content-second-panel {
-      max-width: 40%;
-      right:-18%;
+
+
       top:50%;
-      transform: translate(-50%, -50%);
+
   
-      // h2 {
-      //   font-size: 55px;
-      //   line-height: 66px;
-      // }
-      // p {
-      //   font-size: 16px;
-      //   line-height: 30px;
-      // }
+      h2 {
+        font-size: 55px;
+        line-height: 66px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 30px;
+      }
   
     }
 
