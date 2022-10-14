@@ -47,7 +47,7 @@ export const Secondpanel = () => {
           <div className="cta hidden md:block"><a href="">
             <Image src={cta} width={238} height={49} /></a>
           </div> 
-          </div>
+        </div>
       </div>
     </>
   )

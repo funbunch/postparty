@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import clipPanelMob from '../public/img/blade3-mob@2x.png'
 import clipPanel from '../public/img/blade3.png'
-import clipImge from '../public/img/clip-img@2x.png'
+import clipImg from '../public/img/clip-img@2x.png'
 
 export const Clippanel = () => {
     return (
@@ -22,7 +22,7 @@ export const Clippanel = () => {
             </p>
           </div>
           <div className="hidden right-col md:block absolute md:top-[31%] md:w-[39%] md:left-[52%] md:top-[25%]">
-            <Image src={clipImge} width={835} height={666} layout='intrinsic'/>
+            <Image src={clipImg} width={835} height={666} layout='intrinsic'/>
           </div>  
         </div>
       </>
