@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import styled from 'styled-components'
 import topPanelMob from '../public/img/bladetop-mob@2x@2x.jpg'
-import topPanel from '../public/img/toppanel3.jpg'
+import topPanel from '../public/img/toppanel4.jpg'
 import ps5 from '../public/img/ps5@2x.png'
 import xbox from '../public/img/xbox@2x.png'
 import phone from '../public/img/phone@2x.png'
@@ -29,40 +29,40 @@ return (
         <Image src={topPanelMob} width={768} height={1946} />
       </div> 
       <div className='hidden md:grid md:row-start-1 md:col-start-1'>
-        <Image src={topPanel} width={1920} height={913} />
+        <Image src={topPanel} width={1920} height={1195} />
       </div>  
       <div className="overlay flex flex-col
-      row-start-1 col-start-1 z-30 pt-7 px-8 md:pl-12 lg:pl-64">
-          <div className="system-logos-mob pb-1 lg:hidden">
+      row-start-1 col-start-1 z-30 pt-3 px-8 md:pl-12 lg:pl-64">
+          <div className="system-logos-mob pb-2 md:hidden">
             <div className="ps5 inline-block pr-5">
-                <Image src={ps5Mob} width={44} height={15} />
+                <Image src={ps5Mob} width={67} height={15} />
             </div>
             <div className="xbox inline-block">
-              <Image src={xboxMob} width={61} height={19} />
+              <Image src={xboxMob} width={67} height={19} />
             </div>
           </div>
-          <div className="system-logos hidden lg:block md:pt-3.5 md:pb-2.5 xl:pb-20">
+          <div className="system-logos hidden md:pt-3.5 md:pb-7 md:block xl:pb-20">
             <div className="ps5 inline-block pr-11">
               <a href=""><Image src={ps5} width={118} height={27} /></a>
             </div>
             <div className="xbox inline-block">
-              <a href="http://"><Image src={xbox} width={107} height={33} /></a>
+              <a href="#"><Image src={xbox} width={107} height={33} /></a>
             </div>
           </div>
-          <div className="text md:w-[53%] lg:w-2/6 xl:w-4/12">
-            <h2 className="pb-6 md:text-2xl lg:text-3xl leading-[1.2]">Relive Your Gaming<br />Greatness Again<br />and Again
+          <div className="text md:w-[45%]">
+            <h2 className="pb-6 lg:text-[55px] lg:leading-none">Relive Your Gaming<br />Greatness Again<br />and Again
             </h2>
-            <p className="md:text-sm lg:text-base md:pb-4 lg:pb-10">Your greatest gaming moments shouldn't be fleeting. They should be saved and savored like fine wine and fancy cheeses. All you have to do is connect the Postparty mobile app to your PS5 or XBOX to capture your most awesome moments, build a vast collection of your greatest hits and share them via social media with just a few clicks.
+            <p className="md:text-sm md:pb-8 lg:text-base lg:pb-10">Your greatest gaming moments shouldn't be fleeting. They should be saved and savored like fine wine and fancy cheeses. All you have to do is connect the Postparty mobile app to your PS5 or XBOX to capture your most awesome moments, build a vast collection of your greatest hits and share them via social media with just a few clicks.
             </p>
           </div>
           <div className="cta-mob text-center md:hidden pt-7 pb-7">
-            <a href="">
+            <a href="http://google.com">
             <Image src={ctaVideoMob} width={134} height={32} />
             </a>
           </div>
           <div className="cta hidden md:block md:pb-4 xl:pb-7">
             <a href="">
-            <Image src={ctaVideo} width={195} height={50} layout='intrinsic' />
+            <Image src={ctaVideo} layout='intrinsic' />
             </a>
           </div>
           <div className="badgeMob text-center md:text-left lg:hidden">
