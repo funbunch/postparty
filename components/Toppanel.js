@@ -32,7 +32,7 @@ return (
         <Image src={topPanel} width={1920} height={1195} />
       </div>  
       <div className="overlay flex flex-col
-      row-start-1 col-start-1 z-30 pt-3 px-8 md:pl-12 lg:pl-64">
+      row-start-1 col-start-1 z-30 pt-3 px-8 md:pl-12 lg:pl-20">
           <div className="system-logos-mob pb-2 md:hidden">
             <div className="ps5 inline-block pr-5">
                 <Image src={ps5Mob} width={67} height={15} />
@@ -49,10 +49,10 @@ return (
               <a href="#"><Image src={xbox} width={107} height={33} /></a>
             </div>
           </div>
-          <div className="text md:w-[45%]">
-            <h2 className="pb-6 lg:text-[55px] lg:leading-none">Relive Your Gaming<br />Greatness Again<br />and Again
+          <div className="text md:w-[45%] lg:w-[47%]">
+            <h2 className="pb-6 lg:text-[55px] lg:leading-none">Relive Your Gaming Greatness Again and Again
             </h2>
-            <p className="md:text-sm md:pb-6 lg:text-base lg:pb-10">Your greatest gaming moments shouldn't be fleeting. They should be saved and savored like fine wine and fancy cheeses. All you have to do is connect the Postparty mobile app to your PS5 or XBOX to capture your most awesome moments, build a vast collection of your greatest hits and share them via social media with just a few clicks.
+            <p className="md:text-sm md:pb-6 lg:text-base lg:pb-9">Your greatest gaming moments shouldn't be fleeting. They should be saved and savored like fine wine and fancy cheeses. All you have to do is connect the Postparty mobile app to your PS5 or XBOX to capture your most awesome moments, build a vast collection of your greatest hits and share them via social media with just a few clicks.
             </p>
           </div>
           <div className="cta-mob text-center md:hidden pt-7 pb-7">
@@ -60,7 +60,7 @@ return (
             <Image src={ctaVideoMob} width={134} height={32} />
             </a>
           </div>
-          <div className="cta hidden md:block md:w-[170px] md:pb-4 xl:pb-7">
+          <div className="cta hidden md:block md:w-[170px] md:pb-4 lg:w-[190px] lg:pb-9">
             <a href="">
             <Image src={ctaVideo} layout='intrinsic' />
             </a>

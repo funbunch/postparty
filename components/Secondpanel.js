@@ -35,12 +35,9 @@ export const Secondpanel = () => {
           </div>
         </div>
       </div>
-      <div className="-mt-36 z-40 hidden md:block relative">
+      <div className="-mt-40 z-40 hidden md:block relative">
         <Image src={secondPanel} width={1920} height={957} /> 
-        <div className="content-second-panel absolute top-2 md:top-[16%] md:left-[60%] md:w-[34%] lg:top-[25%] lg:left-[62%]">
-          {/* <div className="device absolute top-10">
-            <Image src={deviceLockup} width={860} height={612} layout='intrinsic' />
-          </div> */}
+        <div className="content-second-panel absolute top-2 md:top-[16%] md:left-[60%] md:w-[34%] lg:top-[20%] lg:left-[58%] lg:w-[36%]">
           <h2 className='pb-12 md:pb-4'>The Easiest Way to Clip, Save and Share</h2>
           <p className='pb-10 lg:pr-24'>Stop being so modest and show your friends and followers what true gaming greatness looks like.
           </p>
