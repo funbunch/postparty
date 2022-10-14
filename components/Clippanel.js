@@ -21,7 +21,7 @@ export const Clippanel = () => {
             <p>So, when you do something amazing, we'll ooh and awe and suggest that you clip it for posterity. You can agree with just one click.
             </p>
           </div>
-          <div className="hidden right-col md:block absolute md:top-[31%] md:w-[39%] md:left-[52%] md:top-[25%]">
+          <div className="hidden right-col md:block absolute md:top-[31%] md:w-[39%] md:left-[52%] lg:top-[25%]">
             <Image src={clipImg} width={835} height={666} layout='intrinsic'/>
           </div>  
         </div>
