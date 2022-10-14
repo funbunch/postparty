@@ -52,7 +52,7 @@ return (
           <div className="text md:w-[45%]">
             <h2 className="pb-6 lg:text-[55px] lg:leading-none">Relive Your Gaming<br />Greatness Again<br />and Again
             </h2>
-            <p className="md:text-sm md:pb-8 lg:text-base lg:pb-10">Your greatest gaming moments shouldn't be fleeting. They should be saved and savored like fine wine and fancy cheeses. All you have to do is connect the Postparty mobile app to your PS5 or XBOX to capture your most awesome moments, build a vast collection of your greatest hits and share them via social media with just a few clicks.
+            <p className="md:text-sm md:pb-6 lg:text-base lg:pb-10">Your greatest gaming moments shouldn't be fleeting. They should be saved and savored like fine wine and fancy cheeses. All you have to do is connect the Postparty mobile app to your PS5 or XBOX to capture your most awesome moments, build a vast collection of your greatest hits and share them via social media with just a few clicks.
             </p>
           </div>
           <div className="cta-mob text-center md:hidden pt-7 pb-7">
@@ -60,7 +60,7 @@ return (
             <Image src={ctaVideoMob} width={134} height={32} />
             </a>
           </div>
-          <div className="cta hidden md:block md:pb-4 xl:pb-7">
+          <div className="cta hidden md:block md:w-[170px] md:pb-4 xl:pb-7">
             <a href="">
             <Image src={ctaVideo} layout='intrinsic' />
             </a>
