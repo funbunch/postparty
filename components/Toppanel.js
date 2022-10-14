@@ -32,7 +32,7 @@ return (
         <Image src={topPanel} width={1920} height={1195} />
       </div>  
       <div className="overlay flex flex-col
-      row-start-1 col-start-1 z-30 pt-3 px-8 md:pl-12 lg:pl-20">
+      row-start-1 col-start-1 z-30 pt-3 px-8 md:pl-12 lg:pl-20 xl:pl-44">
           <div className="system-logos-mob pb-2 md:hidden">
             <div className="ps5 inline-block pr-5">
                 <Image src={ps5Mob} width={67} height={15} />
@@ -49,7 +49,7 @@ return (
               <a href="#"><Image src={xbox} width={107} height={33} /></a>
             </div>
           </div>
-          <div className="text md:w-[45%] lg:w-[47%]">
+          <div className="text md:w-[45%] lg:w-[47%] xl:w-[37%]">
             <h2 className="pb-6 lg:text-[55px] lg:leading-none">Relive Your Gaming Greatness Again and Again
             </h2>
             <p className="md:text-sm md:pb-6 lg:text-base lg:pb-9">Your greatest gaming moments shouldn't be fleeting. They should be saved and savored like fine wine and fancy cheeses. All you have to do is connect the Postparty mobile app to your PS5 or XBOX to capture your most awesome moments, build a vast collection of your greatest hits and share them via social media with just a few clicks.
