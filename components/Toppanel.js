@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import styled from 'styled-components'
 import topPanelMob from '../public/img/bladetop-mob@2x@2x.jpg'
 import topPanel from '../public/img/toppanel4.jpg'
 import ps5 from '../public/img/ps5@2x.png'
@@ -16,12 +15,6 @@ import appleBadgeMob from '../public/img/AppleStoreBadge-mob@2x.png'
 import googleBadgeMob from '../public/img/GooglePlayBadge-mob@2x.png'
 
 export const Toppanel = () => {
-//   const Container = styled.div `
-//   width: 1920px;
-//   max-width: 100%;
-//   margin: 0 auto;
-//   /* transform: skewY(-2deg); */
-// `
 return (
   <div> 
     <div className="content grid">
@@ -50,6 +43,7 @@ return (
             </div>
           </div>
           <div className="text md:w-[45%] lg:w-[47%] xl:w-[37%]">
+            <a name="top"></a>
             <h2 className="pb-6 lg:text-[55px] lg:leading-none">Relive Your Gaming Greatness Again and Again
             </h2>
             <p className="md:text-sm md:pb-6 lg:text-base lg:pb-9">Your greatest gaming moments shouldn't be fleeting. They should be saved and savored like fine wine and fancy cheeses. All you have to do is connect the Postparty mobile app to your PS5 or XBOX to capture your most awesome moments, build a vast collection of your greatest hits and share them via social media with just a few clicks.

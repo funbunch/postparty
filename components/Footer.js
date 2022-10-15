@@ -7,7 +7,9 @@ export const Footer = () => {
     <div className="px-7 py-11 relative md:px-20 lg:px-60">
       <div className="scroll absolute right-8 md:right-20 lg:right-60">
       <Link href="#">
-        <Image src={scroll} width={28} height={28} />
+        <a href="#top">
+          <Image src={scroll} width={28} height={28} />
+        </a>
       </Link>
       </div>
       <Link href="#">
