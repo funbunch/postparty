@@ -14,7 +14,7 @@ export const Footertop = () => {
 
   return (
     <>
-      <div className='grid'>
+      <div className='grid md:hidden'>
         <div className="self-start grid row-start-1 col-start-1 -mt-8">
           <Image src={footerTopMob} width={414} height={308} />
         </div>
