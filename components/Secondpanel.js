@@ -35,7 +35,7 @@ export const Secondpanel = () => {
           </div>
         </div>
       </div>
-      <div className="-mt-40 z-40 hidden md:block lg:-mt-56 relative">
+      <div className="-mt-40 z-40 hidden md:block lg:-mt-56 xl:-mt-64 relative">
         <Image src={secondPanel} width={1920} height={957} /> 
         <div className="content-second-panel absolute top-2 md:top-[16%] md:left-[60%] md:w-[34%] lg:top-[20%] lg:left-[58%] lg:w-[36%]">
           <h2 className='pb-12 md:pb-4'>The Easiest Way to Clip, Save and Share</h2>
