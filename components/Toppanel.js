@@ -25,7 +25,7 @@ export const Toppanel = () => {
 return (
   <div> 
     <div className="content grid">
-      <div className=" grid self-start row-start-1 col-start-1 md:hidden">
+      <div className="grid self-start row-start-1 col-start-1 md:hidden">
         <Image src={topPanelMob} width={768} height={1946} />
       </div> 
       <div className='hidden md:grid md:row-start-1 md:col-start-1'>

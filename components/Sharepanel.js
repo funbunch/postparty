@@ -9,7 +9,7 @@ export const Sharepanel = () => {
   return (
     <div>
       <div className="relative">
-        <div className="-mt-[75px]hidden md:block lg:-mt-[98px] xl:-mt-[126px]">
+        <div className="-mt-[75px] hidden md:block lg:-mt-[98px] xl:-mt-[126px]">
           <Image src={sharePanel} width={1920} height={957} />
         </div>
         <div className="content-clip absolute top-2 md:top-[29%] md:left-[11%] md:w-[40%] lg:top-48 lg:left-[10%] lg:w-[32%] xl:w-[26%] xl:top-60">

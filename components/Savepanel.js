@@ -11,7 +11,7 @@ export const Savepanel = () => {
         <div className='hidden md:block md:relative md:mt-[-46px] lg:mt-[-55px] xl:mt-[-75px]'>
           <Image src={savePanel} width={1920} height={957} />
         </div> 
-        <div className="save-device absolute top-2 md:-top-[5%] md:left-[10%] md:w-[42%] lg:text-[55px] lg:w-[43%]">
+        <div className="save-device hidden md:block md:absolute top-2 md:-top-[5%] md:left-[10%] md:w-[42%] lg:text-[55px] lg:w-[43%]">
             <Image src={saveImg} width={874} height={919} layout='intrinsic' />
         </div>
         <div className="right-col absolute md:left-[60%] md:top-32 lg:top-48">
