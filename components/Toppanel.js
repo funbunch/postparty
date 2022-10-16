@@ -76,7 +76,7 @@ return (
             </div>
           </div>
           <div className="phone m-auto mt-[10px] md:hidden">
-            <Image src={phone} width={335} height={590} layout='intrinsic' alt=""/>
+            <Image src={phone} width={335} height={590} layout='intrinsic' alt="device"/>
           </div>
       </div>
   
