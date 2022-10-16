@@ -34,7 +34,7 @@ return (
               <Image src={xboxMob} width={67} height={19} />
             </div>
           </div>
-          <div className="system-logos hidden md:pt-3.5 md:pb-2 md:block lg: lg:pb-16 xl:pb-20">
+          <div className="system-logos hidden md:pt-3.5 md:pb-2 md:block lg:pb-16 xl:pb-20 sixteen:pb-36 xxl:pb-56">
             <div className="ps5 inline-block pr-11">
               <a href=""><Image src={ps5} width={118} height={27} /></a>
             </div>
