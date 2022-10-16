@@ -3,12 +3,53 @@ import Image from 'next/image'
 import clipPanelMob from '../public/img/blade3-mob@2x.png'
 import clipPanel from '../public/img/blade3.png'
 import clipImg from '../public/img/clip-img@2x.png'
+import clipSlider from '../public/img/sliderimg-clip@2x.png'
+import saveSlider from '../public/img/sliderimg-save@2x.png'
+import shareSlider from '../public/img/sliderimg-share@2x.png'
+import social from '../public/img/social-icons@2x.png'
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 
 export const Clippanel = () => {
     return (
       <>
-        <div className="-mt-28 z-20 md:hidden">
-          <Image src={clipPanelMob} width={768} height={1733} />
+        <div className="grid"> 
+          <div className="-mt-28 z-20 grid self-start row-start-1 col-start-1 md:hidden">
+            <Image src={clipPanelMob} width={414} height={934} />
+          </div>
+          <div className="flex flex-col row-start-1 col-start-1 z-[50] md:hidden">
+            <Carousel>
+              <div>
+              <h2 className='pb-12 pl-12 text-left'>Clip</h2>
+              <Image src={clipSlider} width={378} height={315} />
+              <p className='subhead text-lg text-left pl-12 pb-5'>We Know Greatness<br />When We See It, Too. 
+              </p>
+              <p className='text-left pl-12'>So, when you do something amazing, we'll<br />ooh and awe and suggest that you clip it for posterity. You can agree with just one click.
+              </p>
+            </div>
+            <div>
+              <h2 className='pb-12 pl-12 text-left'>Save</h2>
+              <Image src={saveSlider} width={278} height={359} />
+              <p className='subhead text-lg text-left pl-12 pb-5'>Your Vault Will Grow Quickly. 
+                </p>
+                <p className='text-left pl-12'>Every video you save will be added to your personal collection.
+                </p>
+              </div>
+              <div>
+              <h2 className='pb-12 pl-12 text-left'>Share</h2>
+              <div className="img pt-16 pb-16">
+                <Image src={shareSlider} width={285} height={162} />
+              </div>
+              <p className='subhead text-lg text-left pl-12 pb-5'>Your Friends Gotta See this, too
+                </p>
+                <p className='text-left pl-12 pb-5'>Share any moment you please through your favorite social media platform (Facebook, Twitter, Instagram, etc.)
+                </p>
+                <div className="div text-left pl-12">
+                  <Image src={social} width={113} height={24} layout='intrinsic'/>
+                </div>
+            </div>
+            </Carousel>
+          </div>
         </div>
         <div className="relative">
           <div className="-mt-[155px] hidden md:block">

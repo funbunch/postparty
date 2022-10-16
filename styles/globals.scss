@@ -20,6 +20,7 @@ body {
   font-family: interstate, sans-serif;
   font-weight: 500;
   background-color: #000;
+  color: #ffffff;
   width: 1920px;
   max-width: 100%;
   margin: 0 auto;
@@ -37,6 +38,66 @@ p.text-mob {
   font-size: 11px;
   line-height: 21px;
 }
+
+// Slider
+.carousel .control-prev.control-arrow:before {
+  border: none !important;
+  background-image: url(/img/left-arrow@2x.png);
+  width: 33px; 
+  height: 36px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carousel .control-next.control-arrow:before {
+  border: none !important;
+  background-image: url(/img/rightarrow@2x.png);
+  width: 33px; 
+  height: 36px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carousel .slider-wrapper.axis-horizontal .slider .slide {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow {
+  opacity: 1 !important;
+}
+
+.carousel .carousel-status {
+  display: none;
+}
+
+.carousel.carousel-slider .control-arrow:hover {
+  background: transparent !important;
+}
+.carousel-root { 
+  height: 100% !important;
+}
+
+.carousel.carousel-slider {
+  display: flex;
+  height: 100% !important;
+}
+
+.carousel .control-dots .dot {
+  width: 13px !important;
+  height: 13px !important;
+  background-color:transparent !important;
+  border:2px solid white;    
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+}
+
+.carousel .control-dots .dot.selected, .carousel .control-dots .dot:hover {
+  background-color:#fff !important;
+}
+
 
 /* desktop resize content */
 @media screen and (min-width: 828px)and (max-width: 1227px) {
