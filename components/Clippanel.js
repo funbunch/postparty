@@ -14,8 +14,8 @@ export const Clippanel = () => {
     return (
       <>
         <div className="grid"> 
-          <div className="-mt-28 z-20 grid self-start row-start-1 col-start-1 md:hidden">
-            <Image src={clipPanelMob} width={414} height={934} alt="" />
+          <div className="-mt-28 z-20 self-start row-start-1 col-start-1 grid-cols-1 md:hidden">
+            <Image src={clipPanelMob} width={414} height={934} alt="" layout='intrinsic' />
           </div>
           <div className="flex flex-col row-start-1 col-start-1 z-[50] md:hidden">
             <Carousel showThumbs={false}>

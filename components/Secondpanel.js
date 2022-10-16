@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import styled from 'styled-components'
 import secondPanelMob from '../public/img/blade2-mob@2x.png'
 import secondPanel from '../public/img/blade2wlockup@2x.png'
 import deviceLockup from '../public/img/device-lockup@2x.png'
@@ -9,19 +8,9 @@ import cta from '../public/img/CTA-seehowitworks@2x.png'
 
 
 export const Secondpanel = () => {
-//   const Container = styled.div `
-//   width: 1920px;
-//   max-width: 100%;
-//   margin: 0 auto;
-// `
-//   // const Imagewrap = styled.div `
-  // margin-top: -70px;
-  // z-index: 1000;
-  // `
-
   return (
     <>
-      <div className="-mt-52 z-40 md:hidden relative">
+      <div className="-mt-56 z-40 md:hidden relative">
         <Image src={secondPanelMob} width={768} height={1371} alt="" />
         <div className="absolute top-16 px-11">
           <div className="device pb-12">
