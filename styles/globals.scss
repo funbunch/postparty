@@ -48,11 +48,19 @@ ol {
   line-height: 1.75rem;
   padding-top: 1rem;
 }
-ol > :last-child {
+ol.faqs, ul.faqs > :last-child {
   margin-bottom:2.2rem;
 }
 
-.faqs.ol {
+ul.faqs {
+  list-style-position: inside;
+  list-style: disc;
+  padding: 0 0 0 40px; 
+  line-height: 1.75rem;
+  padding-top: 1rem;
+}
+
+.faqs.ol, .faqs.ul  {
   margin-bottom:0
 }
 
