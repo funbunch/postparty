@@ -8,7 +8,7 @@ const faq = () => {
         <Meta title='FAQ' />
         <div className="grid">
           <div className="self-start grid row-start-1 col-start-1 ">
-          <Image src={logoBG} width={1920} height={733}/>
+          <Image src={logoBG} width={1920} height={733} alt=""/>
         </div>
         <div className="overlay flex flex-col
         row-start-1 col-start-1 items-center pt-7 px-5 md:pt-24 z-30">

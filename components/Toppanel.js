@@ -19,64 +19,64 @@ return (
   <div> 
     <div className="content grid">
       <div className="grid self-start row-start-1 col-start-1 md:hidden">
-        <Image src={topPanelMob} width={768} height={1946} />
+        <Image src={topPanelMob} width={768} height={1946} alt="" />
       </div> 
       <div className='hidden md:grid md:row-start-1 md:col-start-1'>
-        <Image src={topPanel} width={1920} height={1195} />
+        <Image src={topPanel} width={1920} height={1195} alt="" />
       </div>  
       <div className="overlay flex flex-col
       row-start-1 col-start-1 z-30 pt-3 px-8 md:pl-12 lg:pl-20 xl:pl-44">
           <div className="system-logos-mob pb-2 md:hidden">
             <div className="ps5 inline-block pr-5">
-                <Image src={ps5Mob} width={67} height={15} />
+                <Image src={ps5Mob} width={67} height={15} alt="Ps5" />
             </div>
             <div className="xbox inline-block">
-              <Image src={xboxMob} width={67} height={19} />
+              <Image src={xboxMob} width={67} height={19} alt="xbox" />
             </div>
           </div>
           <div className="system-logos hidden md:pt-3.5 md:pb-2 md:block lg:pb-16 xl:pb-20 sixteen:pb-36 xxl:pb-56">
             <div className="ps5 inline-block pr-11">
-              <a href=""><Image src={ps5} width={118} height={27} /></a>
+              <a href=""><Image src={ps5} width={118} height={27} alt="PS5" /></a>
             </div>
             <div className="xbox inline-block">
-              <a href="#"><Image src={xbox} width={107} height={33} /></a>
+              <a href="#"><Image src={xbox} width={107} height={33}  alt="Xbox"/></a>
             </div>
           </div>
           <div className="text md:w-[45%] lg:w-[47%] xl:w-[37%]">
             <a name="top"></a>
             <h2 className="pb-6 lg:text-[55px] lg:leading-none">Relive Your Gaming Greatness Again and Again
             </h2>
-            <p className="md:text-sm md:pb-6 lg:text-base lg:pb-9">Your greatest gaming moments shouldn't be fleeting. They should be saved and savored like fine wine and fancy cheeses. All you have to do is connect the Postparty mobile app to your PS5 or XBOX to capture your most awesome moments, build a vast collection of your greatest hits and share them via social media with just a few clicks.
+            <p className="md:text-sm md:pb-6 lg:text-base lg:pb-9">Your greatest gaming moments shouldn&apos;t be fleeting. They should be saved and savored like fine wine and fancy cheeses. All you have to do is connect the Postparty mobile app to your PS5 or XBOX to capture your most awesome moments, build a vast collection of your greatest hits and share them via social media with just a few clicks.
             </p>
           </div>
           <div className="cta-mob text-center md:hidden pt-7 pb-7">
             <a href="http://google.com">
-            <Image src={ctaVideoMob} width={134} height={32} />
+            <Image src={ctaVideoMob} width={134} height={32} alt="Watch Video" />
             </a>
           </div>
           <div className="cta hidden md:block md:w-[170px] md:pb-4 lg:w-[190px] lg:pb-9">
             <a href="">
-            <Image src={ctaVideo} layout='intrinsic' />
+            <Image src={ctaVideo} layout='intrinsic' alt="Watch Video "/>
             </a>
           </div>
           <div className="badgeMob text-center md:text-left lg:hidden">
             <div className="apple lg:hidden pr-5 inline-block">
-              <Image src={appleBadgeMob} width={92} height={30} />
+              <Image src={appleBadgeMob} width={92} height={30} alt="Apple"/>
             </div>
             <div className="google inline-block">
-              <Image src={googleBadgeMob} width={103} height={30} />
+              <Image src={googleBadgeMob} width={103} height={30} alt="Google" />
             </div>
           </div>
           <div className="badge hidden text-center lg:block md:text-left">
             <div className="apple pr-7 inline-block">
-              <Image src={appleBadge} width={161} height={53} />
+              <Image src={appleBadge} width={161} height={53} alt="Apple"/>
             </div>
             <div className="google inline-block">
-              <Image src={googleBadge} width={182} height={54} />
+              <Image src={googleBadge} width={182} height={54} alt="Google"/>
             </div>
           </div>
           <div className="phone m-auto mt-[10px] md:hidden">
-            <Image src={phone} width={335} height={590} layout='intrinsic' />
+            <Image src={phone} width={335} height={590} layout='intrinsic' alt=""/>
           </div>
       </div>
   
