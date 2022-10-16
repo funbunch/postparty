@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import logo from '../public/img/logo-lockup@2x.png'
 
-const Nav = ({ href}) => {
+const Nav = () => {
 
   const [navbar, setNavbar] = useState(false);
 
@@ -11,8 +11,8 @@ const Nav = ({ href}) => {
     <nav className="w-full md:h-[70px] md:flex md:items-center ">
     <div className="justify-between md:w-full md:h-full md:items-center md:flex md:pl-8">
       <div className="flex items-center justify-between md:block">
-        <Link  href={href} passHref className="flex items-center md:py-0 pl-5"  >
-          <Image src={logo} alt="postparty Logo" width={214} height={41} />
+        <Link href="/" passHref className="flex items-center md:py-0 pl-5">
+          <a><Image src={logo} alt="postparty Logo" width={214} height={41} /></a>
         </Link>
         <div className="md:hidden">
           <button
@@ -58,7 +58,7 @@ const Nav = ({ href}) => {
       >
         <ul className="menu md:bg-transparent items-center md:flex md:justify-center text-sm md:text-base pt-2 md:p-0 md:h-full tracking-wide">
           <li className="border-b border-btext-white uppercase py-2.5 pl-7 md:hidden">
-            <Link href="/">
+            <Link href="/" passHref>
               <a>Home</a>
             </Link>
           </li>

@@ -18,7 +18,7 @@ export const Clippanel = () => {
             <Image src={clipPanelMob} width={414} height={934} alt="" />
           </div>
           <div className="flex flex-col row-start-1 col-start-1 z-[50] md:hidden">
-            <Carousel>
+            <Carousel showThumbs={false}>
               <div>
               <h2 className='pb-12 pl-12 text-left'>Clip</h2>
               <Image src={clipSlider} width={378} height={315} alt="We Know Greatness When We See It, Too" />
