@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import Link from 'next/link'
 import Image from 'next/image'
-import navStyles from '../styles/Nav.module.css'
-import styled from 'styled-components'
 import logo from '../public/img/logo-lockup@2x.png'
 
 const Nav = () => {
@@ -13,7 +11,7 @@ const Nav = () => {
     <nav className="w-full md:h-[70px] md:flex md:items-center ">
     <div className="justify-between md:w-full md:h-full md:items-center md:flex md:pl-8">
       <div className="flex items-center justify-between md:block">
-        <a className="flex items-center md:py-0 pl-5" href="#">
+        <a className="flex items-center md:py-0 pl-5" href="/">
         <Image src={logo} alt="postparty Logo" width={214} height={41} />
         </a>
         <div className="md:hidden">
@@ -70,7 +68,7 @@ const Nav = () => {
             </Link>
           </li>
           <li className="text-white uppercase h-8"></li>
-          <li className="bg-[#278eff] md:bg-[#500096] md:ml-auto md:px-14 md:h-full py-5 text-center text-white uppercase">
+          <li className="bg-[#278eff] md:bg-[#500096] md:ml-auto md:px-14 md:h-full hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 py-5 text-center text-white uppercase">
             <a>Download</a>
           </li>  
         </ul>
