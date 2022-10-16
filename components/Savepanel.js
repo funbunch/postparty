@@ -8,7 +8,7 @@ export const Savepanel = () => {
   return (
   <div>
     <div className="relative">
-        <div className='hidden md:block md:relative md:mt-[-46px] lg:mt-[-55px] xl:mt-[-75px] xl:mt-[-87px]'>
+        <div className='hidden md:block md:relative md:mt-[-46px] lg:mt-[-55px] xl:mt-[-75px] sixteen:mt-[-87px]'>
           <Image src={savePanel} width={1920} height={957} />
         </div> 
         <div className="save-device hidden md:block md:absolute top-2 md:-top-[5%] md:left-[10%] md:w-[42%] lg:text-[55px] lg:w-[43%]">
