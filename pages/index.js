@@ -16,7 +16,6 @@ export default function Home() {
       <Savepanel />
       <Sharepanel />
       <Footertop />
-      <Footer />
       <footer>
 
       </footer>
