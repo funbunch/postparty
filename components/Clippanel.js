@@ -21,7 +21,7 @@ export const Clippanel = () => {
             <Carousel showThumbs={false}>
               <div>
               <h2 className='pb-12 pl-12 text-left'>Clip</h2>
-              <Image src={clipSlider} width={378} height={315} alt="We Know Greatness When We See It, Too" />
+              <Image src={clipSlider} width={278} height={315} layout='intrinsic' alt="We Know Greatness When We See It, Too" />
               <p className='subhead text-lg text-left pl-12 pb-5'>We Know Greatness<br />When We See It, Too. 
               </p>
               <p className='text-left pl-12'>So, when you do something amazing, we&apos;ll<br />ooh and awe and suggest that you clip it for posterity. You can agree with just one click.
@@ -29,7 +29,7 @@ export const Clippanel = () => {
             </div>
             <div>
               <h2 className='pb-12 pl-12 text-left'>Save</h2>
-              <Image src={saveSlider} width={278} height={359}  alt="Your Vault Will Grow Quickly."/>
+              <Image src={saveSlider} width={278} height={359} layout='intrinsic' alt="Your Vault Will Grow Quickly."/>
               <p className='subhead text-lg text-left pl-12 pb-5'>Your Vault Will Grow Quickly. 
                 </p>
                 <p className='text-left pl-12'>Every video you save will be added to your personal collection.
@@ -38,7 +38,7 @@ export const Clippanel = () => {
               <div>
               <h2 className='pb-12 pl-12 text-left'>Share</h2>
               <div className="img pt-16 pb-16">
-                <Image src={shareSlider} width={285} height={162} alt="Your Friends Gotta See this, too" />
+                <Image src={shareSlider} width={285} height={162} layout='intrinsic' alt="Your Friends Gotta See this, too" />
               </div>
               <p className='subhead text-lg text-left pl-12 pb-5'>Your Friends Gotta See this, Too
                 </p>

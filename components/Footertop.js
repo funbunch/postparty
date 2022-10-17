@@ -57,3 +57,4 @@ export const Footertop = () => {
   )
 
 }
+export default Footertop
