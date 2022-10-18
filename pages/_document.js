@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <link
-          href="https://https://use.typekit.net/njb4mad.css"
+          href="https://use.typekit.net/njb4mad.css"
           rel="stylesheet"
         />
       </Head>
