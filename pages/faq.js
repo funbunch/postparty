@@ -65,7 +65,7 @@ const faq = () => {
                 <li>iOS launches system share sheet</li>
                 <li>Android launches custom share sheet</li>
                 <li>Press Done to dismiss the share sheet</li>
-              </ul><br /> 
+              </ul> 
               </p>
               <p className="space"><span className="font-bold md:text-base">Q: How to delete clips</span><br />
               <ul className="lists list-disc pl-10">
@@ -79,12 +79,14 @@ const faq = () => {
               A: 	By default, we capture the last 30 seconds of game play. To trim a clip, open the clip review and tap &ldquo;edit,&ldquo; change the start and endpoint, and hit save. Magic.</p>
               <p className="space"><span className="font-bold md:text-base">Q: How to upgrade the app</span><br />
               A: 	The easiest way to update Postparty is to turn on auto updates in the App Store! Sometimes we&apos;ll prompt you to open the App Store to update your app if it is outdated. </p>
+        
               <p className="space"><span className="font-bold md:text-base">Q: How to manage notifications</span><br />
-              A: 	You mean you don&apos;t want to see your friends next trick? You can manage notifications in your device settings or turn on/off in-app notifications in the app&apos;s settings.  </p>
+              A: 	You mean you don&apos;t want to see your friends next trick? You can manage notifications in your device settings or turn on/off in-app notifications in the app&apos;s settings.</p>
               
               <p className="space"><span className="font-bold md:text-base">Q: How to change avatar?</span><br />
               A: 	Going for a new look? Nice! You can change your in-app avatar by going to settings and clicking &quot;change avatar&quot; in the upper right-hand corner. </p>
-              <h2 id="#fortnite" className="text-[#141414] pb-7 md:leading-[66px] md:text-[55px] md:pb-12 pt-10"> Fortnite Specific Questions</h2>
+              <div className="fornite hidden md:block">
+              <h2 id="#fortnite" className="text-[#141414] pb-7 md:leading-[66px] md:text-[55px] md:pb-12 md:pt-10"> Fortnite Specific Questions</h2>
               <p className="space"><span className="font-bold md:text-base">Q: How to clip in Fortnite</span><br />
               A: 	If you successfully logged in into Postparty with the same Epic Account you use to play Fortnite, you will be able to take clips right away
               <ul className="lists list-disc pl-10">
@@ -109,6 +111,8 @@ const faq = () => {
 
               </ul>
               </p>
+              </div>
+              <div className="rocket hidden md:block">
               <h2 className="text-[#141414] pb-7 md:text-[55px] md:leading-[66px] md:pb-12">Rocket League Specific Questions?</h2><p className="space"><span className="font-bold md:text-base">Q: How to clip in Rocket League</span><br />
               A: If you successfully logged in into Postparty with the same Epic Account you  use to play Rocket League, you will be able to clip right away
               <ul className="lists list-disc pl-10">
@@ -129,6 +133,7 @@ const faq = () => {
               </ul>
             </p>
             <p className="space">You can also check out our &quot;common issues&quot; section which might help you to identify your issue.</p>     
+          </div>
           </div>
         </div>
         </div>
