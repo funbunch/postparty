@@ -38,7 +38,7 @@ const faq = () => {
               <Link href="#"><a>Sign in</a></Link> </p>
               <p className="space"><span className="font-bold md:text-base">Q: Sign in with console</span><br />
               A: If you&apos;re playing with your console account, and you never linked it to an Epic Games account, follow these steps to link your accounts. When done, enter your Epic Games account credentials to Sign In to Postparty. </p>
-              <p className="space"><span className="font-bold md:text-base">Q: What if i've never had an Epic account?</span><br />
+              <p className="space"><span className="font-bold md:text-base">Q: What if I&apos;ve never had an Epic account?</span><br />
               A: Glad you&apos;re finally joining us! You have 3 options: you can create a new account in a web browser, create an account in-game, or through the Postparty app by clicking sign-in and scrolling down to click &lsquo;sign up.&lsquo;<br/> 
               <Link href="#"><a>Sign in</a></Link> </p>
               <p className="space"><span className="font-bold md:text-base">Q: What to do if I logged in to Postparty but I see ‘No linked accounts’?</span><br />
@@ -80,7 +80,7 @@ const faq = () => {
               <p className="space"><span className="font-bold md:text-base">Q: How to upgrade the app</span><br />
               A: 	The easiest way to update Postparty is to turn on auto updates in the App Store! Sometimes we&apos;ll prompt you to open the App Store to update your app if it is outdated. </p>
               <p className="space"><span className="font-bold md:text-base">Q: How to manage notifications</span><br />
-              A: 	You mean you don&apos;t want to see your friends next trick? You can manage notifications in your device settings or turn on/off in-app notifications in the app's settings.  </p>
+              A: 	You mean you don&apos;t want to see your friends next trick? You can manage notifications in your device settings or turn on/off in-app notifications in the app&apos;s settings.  </p>
               
               <p className="space"><span className="font-bold md:text-base">Q: How to change avatar?</span><br />
               A: 	Going for a new look? Nice! You can change your in-app avatar by going to settings and clicking &quot;change avatar&quot; in the upper right-hand corner. </p>
