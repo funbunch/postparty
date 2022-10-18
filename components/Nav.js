@@ -57,7 +57,7 @@ const Nav = () => {
         }`} 
       >
         <ul className="menu md:bg-transparent items-center md:flex md:justify-center text-sm md:text-base pt-2 md:p-0 md:h-full tracking-wide">
-          <li className="border-b border-btext-white uppercase py-2.5 pl-7 md:hidden">
+          <li className="border-b border-btext-white text-white uppercase py-2.5 pl-7 md:hidden">
             <Link href="/" passHref>
               <a>Home</a>
             </Link>
