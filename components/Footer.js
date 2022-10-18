@@ -18,7 +18,7 @@ export const Footer = () => {
       <Link href="#">
         <a className="uppercase pb-10 block border-b border-[#eaeaea]">Privacy Policy</a>
       </Link>
-      <p className="pt-10 text-[9px] leading-4">&copy; 2022, Epic Games, Inc. All rights reserved. Epic Games, Postparty, Unreal Engine, & their logos are trademarks or registered trademarks of Epic Games, Inc. in the USA & elsewhere.  </p>
+      <p className="pt-10 text-[.71rem] leading-4">&copy; 2022, Epic Games, Inc. All rights reserved. Epic Games, Postparty, Unreal Engine, & their logos are trademarks or registered trademarks of Epic Games, Inc. in the USA & elsewhere.  </p>
     </div>
   )
 }
