@@ -12,7 +12,7 @@ export const Footer = () => {
         </a>
       </Link>
       </div>
-      <Link href="#">
+      <Link href="/eula">
         <a className="uppercase block pb-5">Eula</a>
       </Link>
       <Link href="#">

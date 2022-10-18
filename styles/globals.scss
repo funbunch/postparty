@@ -35,16 +35,15 @@ h2 {
   line-height: 37px;
   font-weight: 800;
 }
-p.legal {
+p.space {
   margin-bottom:2.2rem;
-  color: #000;
 }
 
 p.text-mob {
   font-size: 11px;
   line-height: 21px;
 }
-.legal p{
+.legal p, ol, ul {
   color: #444444;
 } 
 
@@ -55,11 +54,11 @@ ol {
   line-height: 1.75rem;
   padding-top: 1rem;
 }
-ol.legal, ul.legal > :last-child {
+ol.lists, ul.lists> :last-child {
   margin-bottom:2.2rem;
 }
 
-ul.legal {
+ul.lists{
   list-style-position: inside;
   list-style: disc;
   padding: 0 0 0 40px; 
@@ -131,7 +130,7 @@ ul.legal {
 }
 
 @media (max-width: 828px) { 
-  ol, ul.legal {
+  ol, ul.lists{
     line-height: 1.25rem;
     padding-left: 20px;
   }

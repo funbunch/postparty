@@ -63,7 +63,7 @@ const Nav = () => {
             </Link>
           </li>
           <li className="border-b md:border-none text-white uppercase py-2.5 pl-7 md:pl-28">
-            <Link href="/eula">
+            <Link href="/faq">
               <a>FAQ</a>
             </Link>
           </li>
