@@ -10,9 +10,9 @@ const Nav = () => {
   return (
     <nav className="w-full md:h-[70px] md:flex md:items-center ">
     <div className="justify-between md:w-full md:h-full md:items-center md:flex md:pl-8">
-      <div className="flex items-center justify-between pl-3.5 md:block">
+      <div className="flex items-center justify-between pl-3.5 pt-2 md:block">
         <Link href="/" passHref className="flex items-center md:py-0 pl-5">
-          <a><Image src={logo} alt="postparty Logo" width={214} height={41} /></a>
+          <a><Image src={logo} alt="postparty Logo" width={171} height={33} /></a>
         </Link>
         <div className="md:hidden">
           <button
@@ -62,7 +62,7 @@ const Nav = () => {
               <a>Home</a>
             </Link>
           </li>
-          <li className="border-b md:border-none text-white uppercase py-2.5 pl-7 md:pl-28">
+          <li className="border-b md:border-none text-white uppercase py-2.5 pl-7 md:pl-20">
             <Link href="/faq">
               <a>FAQ</a>
             </Link>
