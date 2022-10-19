@@ -42,14 +42,14 @@ return (
               <a href="#"><Image src={xbox} width={107} height={33}  alt="Xbox"/></a>
             </div>
           </div>
-          <div className="text -mt-[150px] md:w-[45%] lg:w-[47%] xl:w-[37%]">
+          <div className="text -mt-[150px] md:mt-[0] md:w-[45%] lg:w-[42%] xl:w-[37%]">
             <a name="top"></a>
-            <h2 className="pb-6 lg:text-[55px] lg:leading-none">Relive Your Gaming Greatness Again and Again
+            <h2 className="pb-6 lg:text-[36px] lg:leading-[42px] thirteen:text-[55px] thirteen:leading-[60px]">Relive Your Gaming Greatness Again and Again
             </h2>
             <p className="text-mob md:text-sm md:pb-6 lg:text-base lg:pb-9">Your greatest gaming moments shouldn&apos;t be fleeting. They should be saved and savored like fine wine and fancy cheeses. All you have to do is connect the Postparty mobile app to your PS5 or XBOX to capture your most awesome moments, build a vast collection of your greatest hits and share them via social media with just a few clicks.
             </p>
           </div>
-          <div className="cta-mob text-center pt-1 pb-7 md:hidden">
+          <div className="cta-mob text-center pt-2 pb-7 md:hidden">
             <a href="http://google.com">
             <Image src={ctaVideoMob} width={134} height={32} alt="Watch Video" />
             </a>

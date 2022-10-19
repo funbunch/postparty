@@ -55,14 +55,14 @@ export const Clippanel = () => {
           <div className="-mt-[155px] hidden md:block">
             <Image src={clipPanel} width={1920} height={957}  alt="" />
           </div>
-          <div className="content-clip absolute top-2 md:top-[36%] md:left-[11%] md:w-[34%] lg:top-[35%] lg:left-[10%] lg:w-[32%]">
+          <div className="content-clip absolute top-2 md:top-[36%] md:left-[11%] md:w-[34%] lg:top-[35%] lg:left-[10%] lg:w-[30%]">
             <h2 className='pb-12 md:pb-4 lg:text-[55px] lg:pb-9'>Clip</h2>
             <p className='subhead md:text-2xl md:pb-2 lg:pb-9'>We Know Greatness<br />When We See It, Too. 
             </p>
             <p>So, when you do something amazing, we&apos;ll ooh and awe and suggest that you clip it for posterity. You can agree with just one click.
             </p>
           </div>
-          <div className="hidden right-col md:block absolute md:top-[31%] md:w-[39%] md:left-[52%] lg:top-[25%]">
+          <div className="hidden right-col md:block absolute md:top-[31%] md:w-[34%] md:left-[52%] lg:top-[25%] xl:w-[37%]">
             <Image src={clipImg} width={835} height={666} layout='intrinsic' alt="" />
           </div>  
         </div>

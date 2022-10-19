@@ -41,10 +41,7 @@ p.space {
   margin-bottom:2.2rem;
 }
 
-p.text-mob {
-  font-size: 11px;
-  line-height: 21px;
-}
+
 .legal p, ol, ul {
   color: #444444;
 } 
@@ -139,6 +136,10 @@ ul.lists{
   ol, ul.lists{
     line-height: 1.25rem;
     padding-left: 20px;
+  }
+  p.text-mob {
+    font-size: 11px;
+    line-height: 21px;
   }
 }
 
