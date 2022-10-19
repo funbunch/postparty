@@ -10,7 +10,7 @@ import cta from '../public/img/CTA-seehowitworks@2x.png'
 export const Secondpanel = () => {
   return (
     <>
-      <div className="-mt-60 z-40 md:hidden relative">
+      <div className="-mt-60 z-50 md:hidden relative">
         <Image src={secondPanelMob} width={768} height={1371} alt="" />
         <div className="absolute top-20 px-7">
           <div className="device pb-9">

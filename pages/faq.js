@@ -18,9 +18,9 @@ const faq = () => {
             <aside className="inside hidden md:block md:col-span-3">
               <p className="menu-header text-[#141414] text-2xl pb-7 font-bold">Quick Access</p>
               <ul className="lists !list-none !pl-0 !text-[#141414]">
-                <li><Link href="#general"><a>General Questions</a></Link></li>
-                <li><Link href="#fortnite"><a>Fortnite Specific Questions</a></Link></li>
-                <li><Link href="#rocket-league"><a>Rocket League Specific Questions</a></Link></li>
+                <li><Link href="#general">General Questions</Link></li>
+                <li><Link href="#fortnite">Fortnite Specific Questions</Link></li>
+                <li><Link href="#rocket-league">Rocket League Specific Questions</Link></li>
               </ul> 
             </aside>
           <div className="inside md:col-span-9">
@@ -41,40 +41,40 @@ const faq = () => {
               <p className="space"><span className="font-bold md:text-base">Q: What if I&apos;ve never had an Epic account?</span><br />
               A: Glad you&apos;re finally joining us! You have 3 options: you can create a new account in a web browser, create an account in-game, or through the Postparty app by clicking sign-in and scrolling down to click &lsquo;sign up.&lsquo;<br/> 
               <Link href="#"><a>Sign in</a></Link> </p>
-              <p className="space"><span className="font-bold md:text-base">Q: What to do if I logged in to Postparty but I see ‘No linked accounts’?</span><br />
+              <p className="space"><span className="font-bold md:text-base">Q: What to do if I logged in to Postparty but I see &apos;No linked accounts&apos;?</span><br />
               A: 	Make sure to double-check your logged into the right account by comparing your Epic username in Postparty to your Epic username in the game!</p>
               <p className="space"> <span className="font-bold md:text-base">Q: What games are supported for clipping with Postparty?</span><br />
               A: 	What games are supported for clipping with Postparty?</p>
               <p className="space"><span className="font-bold md:text-base">Q: How to delete my account</span><br />
               A: 	Noooo, don&apos;t go! You can&apos;t delete your Postparty account without deleting your Epic Games account. If you want to do that, please follow the steps here:<br />
               <Link href="https://www.epicgames.com/help/en-US/epic-accounts-c74/general-support-c79/how-do-i-delete-my-epic-games-account-a3636"><a>https://www.epicgames.com/help/en-US/epic-accounts-c74/general-support-c79/how-do-i-delete-my-epic-games-account-a3636</a></Link></p>
-              <p className="space"><span className="font-bold md:text-base">Q: How to make clips</span><br />
-              A: 	See instructions for each supported game below:<br />
-                <ul className="lists list-disc pl-10">
-                  <li>For all games, the baseline is to use the same Epic Account in both: game and Postparty app</li>
-                  <li>capture clips in-game by using default or custom key bindings</li>
-                  <li>when a clip is captured we notify in-game. when it’s ready for preview in the app - we notify with a mobile notification: `You have new clips to preview!`</li>
-                  <li>clips created will show up in your library, time will vary on your internet connection</li>
-                  <li>clips that are currently uploading will show in a “Processing” bar at the top of your Postparty Library</li>
-                  <li>Unseen clips have a dot in the upper right corner.</li>
-                </ul>
-              </p>
-              <p className="space"><span className="font-bold md:text-base">Q: How to share clips</span><br />
+              <p><span className="font-bold md:text-base">Q: How to make clips</span><br />
+              A: 	See instructions for each supported game below:</p>
+              <ul className="lists list-disc pl-10">
+                <li>For all games, the baseline is to use the same Epic Account in both: game and Postparty app</li>
+                <li>capture clips in-game by using default or custom key bindings</li>
+                <li>when a clip is captured we notify in-game. when it&apos;s ready for preview in the app - we notify with a mobile notification: `You have new clips to preview!`</li>
+                <li>clips created will show up in your library, time will vary on your internet connection</li>
+                <li>clips that are currently uploading will show in a “Processing” bar at the top of your Postparty Library</li>
+                <li>Unseen clips have a dot in the upper right corner.</li>
+              </ul>
+            
+              <p><span className="font-bold md:text-base">Q: How to share clips</span><br />
               A: You can share or download your clip, we will show you a message after clips are shared successfully.
+              </p>
               <ul className="lists list-disc pl-10">
                 <li>iOS launches system share sheet</li>
                 <li>Android launches custom share sheet</li>
                 <li>Press Done to dismiss the share sheet</li>
               </ul> 
+              <p><span className="font-bold md:text-base">Q: How to delete clips</span>
               </p>
-              <p className="space"><span className="font-bold md:text-base">Q: How to delete clips</span><br />
               <ul className="lists list-disc pl-10">
                 <li>A: Android: Long press to prompt a delete button over clip.</li>
                 <li>iOS: Long press will launch an extended view.</li>
                 <li>clips can also be deleted while previewing or editing.</li>
                 <li>Postparty will not automatically delete any clips.</li>
               </ul>     
-              </p>
               <p className="space"><span className="font-bold md:text-base">Q: How to trim clip</span><br />
               A: 	By default, we capture the last 30 seconds of game play. To trim a clip, open the clip review and tap &ldquo;edit,&ldquo; change the start and endpoint, and hit save. Magic.</p>
               <p className="space"><span className="font-bold md:text-base">Q: How to upgrade the app</span><br />
@@ -85,8 +85,8 @@ const faq = () => {
               
               <p className="space"><span className="font-bold md:text-base">Q: How to change avatar?</span><br />
               A: 	Going for a new look? Nice! You can change your in-app avatar by going to settings and clicking &quot;change avatar&quot; in the upper right-hand corner. </p>
-              <div className="fornite hidden md:block">
-              <h2 id="#fortnite" className="text-[#141414] pb-7 md:leading-[66px] md:text-[55px] md:pb-12 md:pt-10"> Fortnite Specific Questions</h2>
+              <div id="#fortnite" className="fornite hidden md:block">
+              <h2 className="text-[#141414] pb-7 md:leading-[66px] md:text-[55px] md:pb-12"> Fortnite Specific Questions</h2>
               <p className="space"><span className="font-bold md:text-base">Q: How to clip in Fortnite</span><br />
               A: 	If you successfully logged in into Postparty with the same Epic Account you use to play Fortnite, you will be able to take clips right away
               <ul className="lists list-disc pl-10">
@@ -97,24 +97,22 @@ const faq = () => {
                 <li>mention platform eligibility: only PlayStation for now</li>
               </ul>
             </p>
-            <p className="space"><span className="font-bold md:text-base">Q: What audio sources do we record in clips?</span><br />
+            <p className="space"><span className="font-bold md:text-base">Q: What audio sources do we record in clips?</span></p>
             <ul className="lists list-disc pl-10">
               <li>A: No voice will be recorded in clips</li>
               <li>Streamer safe audio will be enabled for clipping</li>
             </ul>
-            </p>
-            <p className="space"><span className="font-bold md:text-base">Q: Issues with clipping in Fortnite and how to solve them</span><br />
-              A: We&quot;re sorry to hear that! If you&quot;re experiencing any issues with clipping in RL or FN, please reach out to us: 
-              <ul className="list-disc pl-10">
+            <p><span className="font-bold md:text-base">Q: Issues with clipping in Fortnite and how to solve them</span><br />
+              A: We&quot;re sorry to hear that! If you&quot;re experiencing any issues with clipping in RL or FN, please reach out to us:</p>
+              <ul className="list-disc pl-10 pb-10">
                 <li>Player support Help site</li>
                 <li>Shake to report in-app </li>
-
               </ul>
-              </p>
               </div>
-              <div className="rocket hidden md:block">
-              <h2 className="text-[#141414] pb-7 md:text-[55px] md:leading-[66px] md:pb-12">Rocket League Specific Questions?</h2><p className="space"><span className="font-bold md:text-base">Q: How to clip in Rocket League</span><br />
-              A: If you successfully logged in into Postparty with the same Epic Account you  use to play Rocket League, you will be able to clip right away
+              <div id="#rocket-league" className="rocket hidden md:block">
+              <h2 className="text-[#141414] pb-7 md:text-[55px] md:leading-[66px] md:pb-12">Rocket League Specific Questions?</h2>
+              <p><span className="font-bold md:text-base">Q: How to clip in Rocket League</span><br />
+              A: If you successfully logged in into Postparty with the same Epic Account you  use to play Rocket League, you will be able to clip right away </p>
               <ul className="lists list-disc pl-10">
                 <li>you can clip with [square button] during goal replay</li>
                 <li>during the match, you can clip using the [?] button</li>
@@ -122,16 +120,14 @@ const faq = () => {
                 <li>you can change your default clipping buttons in-game settings → Controls  → View/Change Bindings → Capture Gameplay Clip or Capture Goal Replay Clip → set to any other than [?] button</li>
                 <li>mention platform eligibility: only PlayStation and Xbox for now</li> 
               </ul>
-             </p>
               <p className="space"><span className="font-bold md:text-base">Q: What audio sources do we record in clips?</span><br />
               A: What audio sources do we record in clips? </p>
-              <p className="space"><span className="font-bold md:text-base">Q: Issues with clipping Rocket League and how to solve them?</span><br />
-              A: We&apos;re sorry to hear that! If you&apos;re experiencing any issues with clipping in RL or FN, please reach out to us: 
+              <p><span className="font-bold md:text-base">Q: Issues with clipping Rocket League and how to solve them?</span><br />
+              A: We&apos;re sorry to hear that! If you&apos;re experiencing any issues with clipping in RL or FN, please reach out to us:</p>
               <ul className="lists list-disc pl-10">
                 <li>player support Help site</li>
                 <li>shake to report in-app</li>
               </ul>
-            </p>
             <p className="space">You can also check out our &quot;common issues&quot; section which might help you to identify your issue.</p>     
           </div>
           </div>

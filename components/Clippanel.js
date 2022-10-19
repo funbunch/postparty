@@ -32,7 +32,7 @@ export const Clippanel = () => {
               <Image src={saveSlider} width={278} height={359}  alt="Your Vault Will Grow Quickly."/>
               <p className='subhead text-white text-lg text-left pl-12 pb-5'>Your Vault Will Grow Quickly. 
                 </p>
-                <p className='text-whitetext-left pl-12'>Every video you save will be added to your personal collection.
+                <p className='text-white text-left pl-12'>Every video you save will be added to your personal collection.
                 </p>
               </div>
               <div>
