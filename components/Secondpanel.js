@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import secondPanelMob from '../public/img/blade2-mob@2x.png'
-import secondPanel from '../public/img/blade2wlockup@2x.png'
+import secondPanel from '../public/img/blade2awlockup@2x.png'
 import deviceLockup from '../public/img/device-lockup@2x.png'
 import ctaMob from '../public/img/cta-works_mob@2x.png'
 import cta from '../public/img/CTA-seehowitworks@2x.png'
@@ -14,7 +14,7 @@ export const Secondpanel = () => {
         <Image src={secondPanelMob} width={768} height={1371} alt="" />
         <div className="absolute top-16 px-11">
           <div className="device pb-12">
-            <Image src={deviceLockup} width={860} height={612} layout='intrinsic' alt="" />
+            <Image src={deviceLockup} width={822} height={618} layout='intrinsic' alt="" />
           </div>
           <h2 className='pb-5'>The Easiest Way to Clip, Save and Share</h2>
           <p className='text-mob pb-6'>Stop being so modest and show your friends and followers what true gaming greatness looks like.
