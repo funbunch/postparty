@@ -2,8 +2,10 @@ import Meta from "../components/Meta"
 import Link from "next/link"
 import Image from 'next/image'
 import logoBG from '../public/img/bg-faq@2x.jpg'
+import React, { useEffect } from 'react';
 
 const faq = () => {
+
   return (
     <div>
         <Meta title='FAQ' />
@@ -18,13 +20,13 @@ const faq = () => {
             <aside className="inside hidden md:block md:col-span-3">
               <p className="menu-header text-[#141414] text-2xl pb-7 font-bold">Quick Access</p>
               <ul className="lists !list-none !pl-0 !text-[#141414]">
-                <li><Link href="#general">General Questions</Link></li>
-                <li><Link href="#fortnite">Fortnite Specific Questions</Link></li>
-                <li><Link href="#rocket-league">Rocket League Specific Questions</Link></li>
+                <li><a href="#general">General Questions</a></li>
+                <li><a href="#fortnite">Fortnite Specific Questions</a></li>
+                <li><a href="#rocket-league">Rocket League Specific Questions</a></li>
               </ul> 
             </aside>
           <div className="inside md:col-span-9">
-            <h2 className="text-[#141414] pb-7 md:text-[55px] md:leading-[66px] md:pb-12"><a href="#general">General Questions</a></h2>
+            <h2 className="text-[#141414] pb-7 md:text-[55px] md:leading-[66px] md:pb-12"><a id="#general">General Questions</a></h2>
             <p className="space"><span className="font-bold md:text-base">Q: What is Postparty?</span><br />
               A: 	Postparty is everything you didn&apos;t know you needed. We are a game-clipping app that lets you record your best game play moments and share them to your friends! It&apos;s easy to use and lets you share across platforms to make all your followers jealous. </p>
             <p className="space"><span className="font-bold md:text-base">Q: How to contact us?</span><br />
