@@ -12,15 +12,17 @@ export const Secondpanel = () => {
     <>
       <div className="-mt-64 z-40 md:hidden relative">
         <Image src={secondPanelMob} width={768} height={1371} alt="" />
-        <div className="absolute top-16 px-11">
-          <div className="device pb-12">
+        <div className="absolute top-16">
+          <div className="device pb-4 px-3.5">
             <Image src={deviceLockup} width={822} height={618} layout='intrinsic' alt="" />
           </div>
-          <h2 className='pb-5'>The Easiest Way to Clip, Save and Share</h2>
-          <p className='text-mob pb-6'>Stop being so modest and show your friends and followers what true gaming greatness looks like.
-          </p>
-          <div className="cta text-center"><a href="">
-            <Image src={ctaMob} width={171} height={31} alt="See how it works" /></a>
+          <div className="px-11 -mt-[m-40]">
+            <h2 className='pb-5'>The Easiest Way to Clip, Save and Share</h2>
+            <p className='text-mob pb-6'>Stop being so modest and show your friends and followers what true gaming greatness looks like.
+            </p>
+            <div className="cta text-center"><a href="">
+              <Image src={ctaMob} width={171} height={31} alt="See how it works" /></a>
+            </div>
           </div>
         </div>
       </div>
