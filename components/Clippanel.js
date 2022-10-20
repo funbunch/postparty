@@ -22,17 +22,17 @@ export const Clippanel = () => {
               <div>
               <h2 className='pb-12 pl-12 text-white text-left'>Clip</h2>
               <Image src={clipSlider} width={378} height={315} alt="We Know Greatness When We See It, Too" />
-              <p className='subhead text-white text-lg text-left pl-12 pb-5'>We Know Greatness<br />When We See It, Too. 
+              <p className='subhead text-white text-lg text-left pl-14 pb-5'>We Know Greatness<br />When We See It, Too. 
               </p>
-              <p className='text-left text-white px-12'>So, when you do something amazing, we&apos;ll<br />ooh and awe and suggest that you clip it for posterity. You can agree with just one click.
+              <p className='text-left text-white px-14'>So, when you do something amazing, we&apos;ll ooh and awe and suggest that you clip it for posterity. You can agree with just one click.
               </p>
             </div>
             <div>
               <h2 className='pb-12 pl-12 text-white text-left'>Save</h2>
               <Image src={saveSlider} width={278} height={359}  alt="Your Vault Will Grow Quickly."/>
-              <p className='subhead text-white text-lg text-left pl-12 pb-5'>Your Vault Will Grow Quickly. 
+              <p className='subhead text-white text-lg text-left pl-14 pb-5'>Your Vault Will Grow Quickly. 
                 </p>
-                <p className='text-white text-left pl-12'>Every video you save will be added to your personal collection.
+                <p className='text-white text-left px-14'>Every video you save will be added to your personal collection.
                 </p>
               </div>
               <div>
@@ -40,9 +40,9 @@ export const Clippanel = () => {
               <div className="img pt-16 pb-16">
                 <Image src={shareSlider} width={285} height={162} alt="Your Friends Gotta See this, too" />
               </div>
-              <p className='subhead text-white text-lg text-left pl-12 pb-5'>Your Friends Gotta See this, Too
+              <p className='subhead text-white text-lg text-left pl-14 pb-5'>Your Friends Gotta See this, Too
                 </p>
-                <p className='text-left text-white px-12 pb-5'>Share any moment you please through your favorite social media platform (Facebook, Twitter, Instagram, etc.)
+                <p className='text-left text-white px-14 pb-5'>Share any moment you please through your favorite social media platform (Facebook, Twitter, Instagram, etc.)
                 </p>
                 <div className="div text-left pl-12">
                   <Image src={social} width={113} height={24} layout='intrinsic' alt="Social icons"/>

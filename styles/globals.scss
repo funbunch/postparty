@@ -140,9 +140,20 @@ ul.lists{
   background-color:#fff !important;
 }
 
+.carousel .slider.animated {
+  position: absolute !important;
+  top: 0 !important;
+}
+
 .carousel.carousel-slider .control-arrow {
   position:absolute;
-  top: -247px;
+  top: -247px !important;
+  padding: 23px !important;
+}
+
+// some samsung adjustments
+.slide img {
+  min-width: 92% !important;
 }
 
 @media (max-width: 828px) { 
