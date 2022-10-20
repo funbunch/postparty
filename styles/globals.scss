@@ -140,6 +140,11 @@ ul.lists{
   background-color:#fff !important;
 }
 
+.carousel.carousel-slider .control-arrow {
+  position:absolute;
+  top: -247px;
+}
+
 @media (max-width: 828px) { 
   ol, ul.lists{
     line-height: 1.25rem;

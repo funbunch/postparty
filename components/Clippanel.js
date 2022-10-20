@@ -17,14 +17,14 @@ export const Clippanel = () => {
           <div className="-mt-28 z-20 self-start row-start-1 col-start-1 md:hidden">
             <Image src={clipPanelMob} width={414} height={934} alt="" layout='intrinsic' />
           </div>
-          <div className="flex flex-col row-start-1 col-start-1 z-[50] overflow-auto md:hidden">
+          <div className="flex flex-col row-start-1 col-start-1 items-center z-[50] overflow-hidden md:hidden">
             <Carousel showThumbs={false} swipeable={false} width={'414px'}> 
               <div>
               <h2 className='pb-12 pl-12 text-white text-left'>Clip</h2>
               <Image src={clipSlider} width={378} height={315} alt="We Know Greatness When We See It, Too" />
               <p className='subhead text-white text-lg text-left pl-12 pb-5'>We Know Greatness<br />When We See It, Too. 
               </p>
-              <p className='text-left text-white pl-12'>So, when you do something amazing, we&apos;ll<br />ooh and awe and suggest that you clip it for posterity. You can agree with just one click.
+              <p className='text-left text-white px-12'>So, when you do something amazing, we&apos;ll<br />ooh and awe and suggest that you clip it for posterity. You can agree with just one click.
               </p>
             </div>
             <div>
@@ -42,7 +42,7 @@ export const Clippanel = () => {
               </div>
               <p className='subhead text-white text-lg text-left pl-12 pb-5'>Your Friends Gotta See this, Too
                 </p>
-                <p className='text-left text-white pl-12 pb-5'>Share any moment you please through your favorite social media platform (Facebook, Twitter, Instagram, etc.)
+                <p className='text-left text-white px-12 pb-5'>Share any moment you please through your favorite social media platform (Facebook, Twitter, Instagram, etc.)
                 </p>
                 <div className="div text-left pl-12">
                   <Image src={social} width={113} height={24} layout='intrinsic' alt="Social icons"/>

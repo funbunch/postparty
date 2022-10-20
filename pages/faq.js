@@ -4,9 +4,10 @@ import Image from 'next/image'
 import logoBG from '../public/img/bg-faq@2x.jpg'
 import React, { useEffect } from 'react';
 
+
 const faq = () => {
 
-  
+
 
   return (
     <div>
