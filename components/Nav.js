@@ -67,7 +67,7 @@ const Nav = () => {
             </Link>
           </li>
           <li className="border-b md:border-none text-white uppercase py-2.5 pl-7 md:pl-20">
-            <Link className={router.pathname == "/faq" ? "active" : ""} href="/faq" passHref>
+            <Link href="/faq" className={router.pathname == "/faq" ? "active" : ""} passHref>
               <a>FAQ</a>
             </Link>
           </li>
