@@ -2,12 +2,19 @@ import Meta from "../components/Meta"
 import Link from "next/link"
 import Image from 'next/image'
 import logoBG from '../public/img/bg-faq@2x.jpg'
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 
 
 const faq = () => {
 
+  const general = React.useRef();
+  const fornite = React.useRef();
+  const rocket = React.useRef();
 
+  function scrollTo(ref) {
+    if (!ref.current) return;
+    ref.current.scrollIntoView({ behavior: "smooth" });
+  }
 
   return (
     <div>
@@ -23,13 +30,13 @@ const faq = () => {
             <aside className="inside hidden md:block md:col-span-3">
               <p className="menu-header text-[#141414] text-2xl pb-7 font-bold">Quick Access</p>
               <ul className="lists !list-none !pl-0 !text-[#141414]">
-                <li><a href="#general">General Questions</a></li>
-                <li><a href="#fortnite">Fortnite Specific Questions</a></li>
-                <li><a href="#rocket-league">Rocket League Specific Questions</a></li>
+                <li><a onClick={() => scrollTo(general)} href="#general">General Questions</a></li>
+                <li><a onClick={() => scrollTo(fornite)} href="#fortnite">Fortnite Specific Questions</a></li>
+                <li><a onClick={() => scrollTo(rocket)} href="#rocket-league">Rocket League Specific Questions</a></li>
               </ul> 
             </aside>
           <div className="inside md:col-span-9">
-            <h2 className="text-[#141414] pb-7 md:text-[55px] md:leading-[66px] md:pb-12"><a id="#general">General Questions</a></h2>
+            <h2 className="text-[#141414] pb-7 md:text-[55px] md:leading-[66px] md:pb-12"><a ref={general} id="#general">General Questions</a></h2>
             <p className="space"><span className="font-bold md:text-base">Q: What is Postparty?</span><br />
               A: 	Postparty is everything you didn&apos;t know you needed. We are a game-clipping app that lets you record your best game play moments and share them to your friends! It&apos;s easy to use and lets you share across platforms to make all your followers jealous. </p>
             <p className="space"><span className="font-bold md:text-base">Q: How to contact us?</span><br />
@@ -90,7 +97,7 @@ const faq = () => {
               
               <p className="space"><span className="font-bold md:text-base">Q: How to change avatar?</span><br />
               A: 	Going for a new look? Nice! You can change your in-app avatar by going to settings and clicking &quot;change avatar&quot; in the upper right-hand corner. </p>
-              <div id="#fortnite" className="fornite md:block">
+              <div ref={fornite} id="#fortnite" className="fornite md:block">
               <h2 className="text-[#141414] pb-7 md:leading-[66px] md:text-[55px] md:pb-12"> Fortnite Specific Questions</h2>
               <p className="space"><span className="font-bold md:text-base">Q: How to clip in Fortnite</span><br />
               A: 	If you successfully logged in into Postparty with the same Epic Account you use to play Fortnite, you will be able to take clips right away
@@ -114,7 +121,7 @@ const faq = () => {
                 <li>Shake to report in-app </li>
               </ul>
               </div>
-              <div id="#rocket-league" className="rocket md:block">
+              <div ref={rocket} id="#rocket-league" className="rocket md:block">
               <h2 className="text-[#141414] pb-7 md:text-[55px] md:leading-[66px] md:pb-12">Rocket League Specific Questions?</h2>
               <p><span className="font-bold md:text-base">Q: How to clip in Rocket League</span><br />
               A: If you successfully logged in into Postparty with the same Epic Account you  use to play Rocket League, you will be able to clip right away </p>

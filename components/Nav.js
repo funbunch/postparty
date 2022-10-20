@@ -8,7 +8,7 @@ import logo from '../public/img/logo-lockup@2x.png'
 const Nav = () => {
   const router = useRouter();
   const [navbar, setNavbar] = useState(false);
-  console.log(router.pathname)
+  // console.log(router.pathname)
   
   return (
     <nav className="w-full md:h-[70px] md:flex md:items-center ">
