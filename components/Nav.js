@@ -14,7 +14,7 @@ const Nav = () => {
     <nav className="w-full md:h-[70px] md:flex md:items-center ">
     <div className="justify-between md:w-full md:h-full md:items-center md:flex md:pl-8">
       <div className="flex items-center justify-between pl-3.5 md:block">
-        <div className="flex items-center pt-2 md:py-0">
+        <div className="flex items-center pt-2">
           <Link href="/" passHref>
             <a><Image src={logo} alt="postparty Logo" width={171} height={33} /></a>
           </Link>
