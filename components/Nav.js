@@ -3,7 +3,6 @@ import { useRouter } from "next/router";
 import Link from 'next/link'
 import Image from 'next/image'
 import logo from '../public/img/logo-lockup@2x.png'
-import { NavLink } from "./NavLink";
 
 
 const Nav = () => {
@@ -69,9 +68,9 @@ const Nav = () => {
             </Link>
           </li>
           <li className="border-b md:border-none text-white uppercase py-2.5 pl-7 md:pl-20">
-            <NavLink href="/faq" exact className="nav-item" passHref>
+            <Link href="/faq" className={router.pathname == "/faq" ? "active" : ""} passHref>
               <a>FAQ</a>
-            </NavLink>
+            </Link>
           </li>
           <li className="text-white uppercase h-8"></li>
           <li className="bg-[#278eff] md:bg-[#500096] md:ml-auto md:px-14 md:h-full hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 py-5 text-center text-white uppercase">
