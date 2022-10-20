@@ -28,15 +28,15 @@ return (
       row-start-1 col-start-1 z-30 pt-3 px-8 md:pl-12 lg:pl-20 xl:pl-44">
           <div className="system-logos-mob pb-12 bg-[#500096] h-56 md:pb-2 md:hidden">
             <div className="ps5 inline-block pr-5">
-                <Image src={ps5Mob} width={67} height={15} alt="Ps5" />
+            <a href="#"><Image src={ps5Mob} width={67} height={15} alt="Ps5" /></a>
             </div>
             <div className="xbox inline-block">
-              <Image src={xboxMob} width={67} height={19} alt="xbox" />
+            <a href="#"><Image src={xboxMob} width={67} height={19} alt="xbox" /></a>
             </div>
           </div>
           <div className="system-logos hidden md:pt-3.5 md:pb-2 md:block lg:pb-16 xl:pb-20 sixteen:pb-36 xxl:pb-56">
             <div className="ps5 inline-block pr-11">
-              <a href=""><Image src={ps5} width={118} height={27} alt="PS5" /></a>
+              <a href="#"><Image src={ps5} width={118} height={27} alt="PS5" /></a>
             </div>
             <div className="xbox inline-block">
               <a href="#"><Image src={xbox} width={107} height={33}  alt="Xbox"/></a>
@@ -61,18 +61,18 @@ return (
           </div>
           <div className="badgeMob text-center md:text-left lg:hidden">
             <div className="apple lg:hidden pr-5 inline-block">
-              <Image src={appleBadgeMob} width={92} height={30} alt="Apple"/>
+            <a href="#"><Image src={appleBadgeMob} width={92} height={30} alt="Apple"/></a>
             </div>
             <div className="google inline-block">
-              <Image src={googleBadgeMob} width={103} height={30} alt="Google" />
+            <a href="#"><Image src={googleBadgeMob} width={103} height={30} alt="Google" /></a>
             </div>
           </div>
           <div className="badge hidden text-center lg:block md:text-left">
             <div className="apple pr-7 inline-block">
-              <Image src={appleBadge} width={161} height={53} alt="Apple"/>
+            <a href="#"><Image src={appleBadge} width={161} height={53} alt="Apple"/></a>
             </div>
             <div className="google inline-block">
-              <Image src={googleBadge} width={182} height={54} alt="Google"/>
+            <a href="#"><Image src={googleBadge} width={182} height={54} alt="Google"/></a>
             </div>
           </div>
           <div className="phone m-auto mt-[24px] md:hidden">

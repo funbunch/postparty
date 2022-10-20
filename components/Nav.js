@@ -1,12 +1,14 @@
 import React, { useState } from "react";
+import { useRouter } from "next/router";
 import Link from 'next/link'
 import Image from 'next/image'
 import logo from '../public/img/logo-lockup@2x.png'
 
 const Nav = () => {
-
+  const router = useRouter();
   const [navbar, setNavbar] = useState(false);
-
+  console.log(router.pathname)
+  
   return (
     <nav className="w-full md:h-[70px] md:flex md:items-center ">
     <div className="justify-between md:w-full md:h-full md:items-center md:flex md:pl-8">
@@ -65,7 +67,7 @@ const Nav = () => {
             </Link>
           </li>
           <li className="border-b md:border-none text-white uppercase py-2.5 pl-7 md:pl-20">
-            <Link href="/faq">
+            <Link className={router.pathname == "/faq" ? "active" : ""} href="/faq" passHref>
               <a>FAQ</a>
             </Link>
           </li>

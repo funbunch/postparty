@@ -15,10 +15,10 @@ export const Clippanel = () => {
       <>
         <div className="clip grid"> 
           <div className="-mt-28 z-20 self-start row-start-1 col-start-1 md:hidden">
-            <Image src={clipPanelMob} width={414} height={934} alt="" />
+            <Image src={clipPanelMob} width={414} height={934} alt="" layout='intrinsic' />
           </div>
           <div className="flex flex-col row-start-1 col-start-1 z-[50] md:hidden">
-            <Carousel showThumbs={false} swipeable={false}>
+            <Carousel showThumbs={false} swipeable={false} width={'414px'}> 
               <div>
               <h2 className='pb-12 pl-12 text-white text-left'>Clip</h2>
               <Image src={clipSlider} width={378} height={315} alt="We Know Greatness When We See It, Too" />

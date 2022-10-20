@@ -6,6 +6,8 @@ import React, { useEffect } from 'react';
 
 const faq = () => {
 
+  
+
   return (
     <div>
         <Meta title='FAQ' />
@@ -69,10 +71,10 @@ const faq = () => {
                 <li>Android launches custom share sheet</li>
                 <li>Press Done to dismiss the share sheet</li>
               </ul> 
-              <p><span className="font-bold md:text-base">Q: How to delete clips</span>
+              <p><span className="font-bold md:text-base">Q: How to delete clips</span><br />
+              A: Android: Long press to prompt a delete button over clip
               </p>
               <ul className="lists list-disc pl-10">
-                <li>A: Android: Long press to prompt a delete button over clip.</li>
                 <li>iOS: Long press will launch an extended view.</li>
                 <li>clips can also be deleted while previewing or editing.</li>
                 <li>Postparty will not automatically delete any clips.</li>
@@ -87,7 +89,7 @@ const faq = () => {
               
               <p className="space"><span className="font-bold md:text-base">Q: How to change avatar?</span><br />
               A: 	Going for a new look? Nice! You can change your in-app avatar by going to settings and clicking &quot;change avatar&quot; in the upper right-hand corner. </p>
-              <div id="#fortnite" className="fornite hidden md:block">
+              <div id="#fortnite" className="fornite md:block">
               <h2 className="text-[#141414] pb-7 md:leading-[66px] md:text-[55px] md:pb-12"> Fortnite Specific Questions</h2>
               <p className="space"><span className="font-bold md:text-base">Q: How to clip in Fortnite</span><br />
               A: 	If you successfully logged in into Postparty with the same Epic Account you use to play Fortnite, you will be able to take clips right away
@@ -104,14 +106,14 @@ const faq = () => {
               <li>A: No voice will be recorded in clips</li>
               <li>Streamer safe audio will be enabled for clipping</li>
             </ul>
-            <p><span className="font-bold md:text-base">Q: Issues with clipping in Fortnite and how to solve them</span><br />
+            <p><span className="font-bold md:text-base">Q: Issues with clipping in Fortnite and how to solve them</span><br />  
               A: We&quot;re sorry to hear that! If you&quot;re experiencing any issues with clipping in RL or FN, please reach out to us:</p>
-              <ul className="list-disc pl-10 pb-10">
+              <ul className="lists list-disc pl-10 pb-10">
                 <li>Player support Help site</li>
                 <li>Shake to report in-app </li>
               </ul>
               </div>
-              <div id="#rocket-league" className="rocket hidden md:block">
+              <div id="#rocket-league" className="rocket md:block">
               <h2 className="text-[#141414] pb-7 md:text-[55px] md:leading-[66px] md:pb-12">Rocket League Specific Questions?</h2>
               <p><span className="font-bold md:text-base">Q: How to clip in Rocket League</span><br />
               A: If you successfully logged in into Postparty with the same Epic Account you  use to play Rocket League, you will be able to clip right away </p>
@@ -122,8 +124,12 @@ const faq = () => {
                 <li>you can change your default clipping buttons in-game settings → Controls  → View/Change Bindings → Capture Gameplay Clip or Capture Goal Replay Clip → set to any other than [?] button</li>
                 <li>mention platform eligibility: only PlayStation and Xbox for now</li> 
               </ul>
-              <p className="space"><span className="font-bold md:text-base">Q: What audio sources do we record in clips?</span><br />
-              A: What audio sources do we record in clips? </p>
+              <p><span className="font-bold md:text-base">Q: What audio sources do we record in clips?</span></p>
+                <ul className="lists list-disc pl-10">
+                  <li>No voice will be recorded in clips</li>
+                  <li>Streamer safe audio will be enabled for clipping</li>
+                </ul>
+                
               <p><span className="font-bold md:text-base">Q: Issues with clipping Rocket League and how to solve them?</span><br />
               A: We&apos;re sorry to hear that! If you&apos;re experiencing any issues with clipping in RL or FN, please reach out to us:</p>
               <ul className="lists list-disc pl-10">
