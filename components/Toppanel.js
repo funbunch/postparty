@@ -56,7 +56,7 @@ return (
           </div>
           <div className="cta hidden md:block md:w-[170px] md:pb-4 lg:w-[190px] lg:pb-9">
             <a href="">
-            <Image src={ctaVideo} layout='intrinsic' alt="Watch Video "/>
+            <img src={ctaVideo} layout='intrinsic' alt="Watch Video "/>
             </a>
           </div>
           <div className="badgeMob text-center md:text-left lg:hidden">
