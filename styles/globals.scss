@@ -157,11 +157,20 @@ ul.lists{
 }
 
 // some samsung adjustments
-.slide img {
-  min-width: 92% !important;
-}
+// .slide img {
+//   min-width: 92% !important;
+// }
 
 @media (max-width: 828px) { 
+  .content-clip {
+    display: none;
+  }
+
+  .menu li:nth-child(2) a {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
   ol, ul.lists{
     line-height: 1.25rem;
     padding-left: 20px;
@@ -172,6 +181,21 @@ ul.lists{
   }
   ul.lists {
     padding-top: 0;
+  }
+  .share-img img {
+    width: 100%;
+    max-width: 262px;
+    height: auto;
+  }
+  .social-img img {
+    width: 100%;
+    max-width: 104px;
+    height: auto;
+  }
+  .save-img img {
+    width: 100%;
+    max-width: 256px;
+    height: auto;
   }
 }
 

@@ -14,12 +14,13 @@ export const Secondpanel = () => {
         <img src={secondPanelMob} width={768} height={1371} alt="" />
         <div className="absolute top-20 px-7">
           <div className="device pb-9">
-            <img src={deviceLockup} width={350} height={238} layout='intrinsic' alt="" />
+            <img src={deviceLockup} width={350} height={238} layout='intrinsic' alt="devices" />
           </div>
             <h2 className='pb-5'>The Easiest Way to Clip, Save and Share</h2>
             <p className='text-mob pb-6'>Stop being so modest and show your friends and followers what true gaming greatness looks like.
             </p>
-            <div className="cta text-center"><a href="">
+            <div className="cta text-center">
+              <a className="inline-block" href="">
               <img src={ctaMob} width={171} height={31} alt="See how it works" /></a>
             </div>
         </div>
@@ -30,8 +31,9 @@ export const Secondpanel = () => {
           <h2 className='pb-12 md:pb-4'>The Easiest Way to Clip, Save and Share</h2>
           <p className='pb-10 lg:pr-24'>Stop being so modest and show your friends and followers what true gaming greatness looks like.
           </p>
-          <div className="cta hidden md:block"><a href="">
-            <img src={cta} width={238} height={49} alt="" /></a>
+          <div className="cta hidden md:block">
+            <a href="">
+            <img src={cta} width={238} height={49} alt="See how it works" /></a>
           </div> 
         </div>
       </div>

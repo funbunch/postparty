@@ -48,7 +48,7 @@ return (
             <p className="text-mob md:text-sm md:pb-6 lg:text-base lg:pb-9">Your greatest gaming moments shouldn&apos;t be fleeting. They should be saved and savored like fine wine and fancy cheeses. All you have to do is connect the Postparty mobile app to your PS5 or XBOX to capture your most awesome moments, build a vast collection of your greatest hits and share them via social media with just a few clicks.
             </p>
           </div>
-          <div className="cta-mob text-center pt-2 pb-7 md:hidden">
+          <div className="cta-mob flex justify-center pt-4 pb-7 md:hidden">
             <a href="#">
             <img src={ctaVideoMob} width={134} height={32} alt="Watch Video" />
             </a>

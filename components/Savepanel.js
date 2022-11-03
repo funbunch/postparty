@@ -14,7 +14,7 @@ export const Savepanel = () => {
         <div className="save-device hidden md:block md:absolute top-2 md:-top-[5%] md:left-[10%] md:w-[42%] lg:text-[55px] lg:w-[43%]">
             <img src={saveImg} width={874} height={919} layout='intrinsic' alt="Device" />
         </div>
-        <div className="right-col absolute md:left-[60%] md:top-32 lg:top-48">
+        <div className="hidden md:block right-col absolute md:left-[60%] md:top-32 lg:top-48">
           <h2 className='pb-12 md:pb-4 lg:text-[55px]'>Save</h2>
           <p className="subhead md:text-2xl md:pb-6 lg:pb-14">Your Vault Will Grow Quickly.</p>  
           <p className='pb-10 lg:pr-24'>Every video you save will be added to your personal collection.
