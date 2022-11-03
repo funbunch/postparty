@@ -1,14 +1,14 @@
 import Meta from "../components/Meta"
-import Image from 'next/image'
+// import Image from 'next/image'
 import logoBG from '../public/img/blade6.jpg'
 
-const eula = () => {
+const Eula = () => {
   return (
     <div>
         <Meta title='Eula' />
         <div className="legal grid">
           <div className="grid self-start row-start-1 col-start-1 ">
-          <Image src={logoBG} width={1920} height={733} alt=""/>
+          <img src={logoBG} width={1920} height={733} alt=""/>
         </div>
         <div className="overlay flex flex-col
         row-start-1 col-start-1 items-center pt-7 md:px-5 md:pt-24 z-30">
@@ -228,4 +228,4 @@ const eula = () => {
   )
 }
 
-export default eula
+export default Eula

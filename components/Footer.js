@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import scroll from '../public/img/scroll-Icon@2x.png'
 
 export const Footer = () => {
@@ -8,7 +8,7 @@ export const Footer = () => {
       <div className="scroll absolute right-8 md:right-20 lg:right-60">
       <Link href="#">
         <a href="#top">
-          <Image src={scroll} width={28} height={28} alt="" />
+          <img src={scroll} width={28} height={28} alt="" />
         </a>
       </Link>
       </div>

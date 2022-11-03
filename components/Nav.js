@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useRouter } from "next/router";
 import Link from 'next/link'
-import Image from 'next/image'
+// import Image from 'next/image'
 import logo from '../public/img/logo-lockup@2x.png'
 
 
@@ -9,14 +9,14 @@ const Nav = () => {
   const router = useRouter();
   const [navbar, setNavbar] = useState(false);
   // console.log(router.pathname)
-  
+
   return (
     <nav className="w-full md:h-[70px] md:flex md:items-center ">
     <div className="justify-between md:w-full md:h-full md:items-center md:flex md:pl-8">
       <div className="flex items-center justify-between pl-3.5 md:block">
         <div className="flex items-center pt-2">
           <Link href="/" passHref>
-            <a><Image src={logo} alt="postparty Logo" width={171} height={33} /></a>
+            <a><img src={logo} alt="postparty Logo" width={171} height={33} /></a>
           </Link>
         </div>
         <div className="md:hidden">

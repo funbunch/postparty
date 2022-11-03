@@ -9,17 +9,7 @@ const nextConfig = {
   },
 }
 
-const config = withPlugins(
-  [
-    [
-      optimizedImages,
-      {
-        // optimisation disabled by default, to enable check https://github.com/cyrilwanner/next-optimized-images
-        optimizeImages: true,
-      },
-    ],
-  ],
-  nextConfig
-);
-
-module.exports = config
+module.exports = withPlugins([
+  [optimizedImages],
+  nextConfig,
+]);

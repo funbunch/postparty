@@ -1,11 +1,11 @@
 import Meta from "../components/Meta"
 import Link from "next/link"
-import Image from 'next/image'
+// import Image from 'next/image'
 import logoBG from '../public/img/bg-faq@2x.jpg'
 import React, { useEffect, useRef } from 'react';
 
 
-const faq = () => {
+const Faq = () => {
 
   const general = React.useRef();
   const fornite = React.useRef();
@@ -21,7 +21,7 @@ const faq = () => {
         <Meta title='FAQ' />
         <div className="legal grid">
           <div className="grid self-start row-start-1 col-start-1 ">
-          <Image src={logoBG} width={1920} height={640} alt=""/>
+          <img src={logoBG} width={1920} height={640} alt=""/>
         </div>
         <div className="overlay flex flex-col
         row-start-1 col-start-1 items-center pt-7 md:px-5 md:pt-24 z-30">
@@ -155,4 +155,4 @@ const faq = () => {
   )
 }
 
-export default faq
+export default Faq

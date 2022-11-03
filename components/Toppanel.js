@@ -1,5 +1,4 @@
-import Link from 'next/link'
-import Image from 'next/image'
+// import Image from 'next/image'
 import topPanelMob from '../public/img/bladetop-mob@2x@2x.jpg'
 import topPanel from '../public/img/toppanel4.jpg'
 import ps5 from '../public/img/ps5@2x.png'
@@ -19,27 +18,27 @@ return (
   <div> 
     <div className="content grid">
       <div className="grid self-start row-start-1 col-start-1 md:hidden">
-        <Image src={topPanelMob} width={768} height={1946} alt="" />
+        <img src={topPanelMob} width={768} height={1946} alt="" />
       </div> 
       <div className='hidden md:grid md:row-start-1 md:col-start-1'>
-        <Image src={topPanel} width={1920} height={1195} alt="" />
+        <img src={topPanel} width={1920} height={1195} alt="" />
       </div>  
       <div className="overlay flex flex-col
       row-start-1 col-start-1 z-30 pt-3 px-8 md:pl-12 lg:pl-20 xl:pl-44">
           <div className="system-logos-mob pb-12 bg-[#500096] h-56 md:pb-2 md:hidden">
             <div className="ps5 inline-block pr-5">
-            <a href="#"><Image src={ps5Mob} width={67} height={15} alt="Ps5" /></a>
+            <a href="#"><img src={ps5Mob} width={67} height={15} alt="Ps5" /></a>
             </div>
             <div className="xbox inline-block">
-            <a href="#"><Image src={xboxMob} width={67} height={19} alt="xbox" /></a>
+            <a href="#"><img src={xboxMob} width={67} height={19} alt="xbox" /></a>
             </div>
           </div>
           <div className="system-logos hidden md:pt-3.5 md:pb-2 md:block lg:pb-16 xl:pb-20 sixteen:pb-36 xxl:pb-56">
             <div className="ps5 inline-block pr-11">
-              <a href="#"><Image src={ps5} width={118} height={27} alt="PS5" /></a>
+              <a href="#"><img src={ps5} width={118} height={27} alt="PS5" /></a>
             </div>
             <div className="xbox inline-block">
-              <a href="#"><Image src={xbox} width={107} height={33}  alt="Xbox"/></a>
+              <a href="#"><img src={xbox} width={107} height={33}  alt="Xbox"/></a>
             </div>
           </div>
           <div className="text -mt-[150px] md:mt-[0] md:w-[45%] lg:w-[42%] xl:w-[37%]">
@@ -50,33 +49,33 @@ return (
             </p>
           </div>
           <div className="cta-mob text-center pt-2 pb-7 md:hidden">
-            <a href="http://google.com">
-            <Image src={ctaVideoMob} width={134} height={32} alt="Watch Video" />
+            <a href="#">
+            <img src={ctaVideoMob} width={134} height={32} alt="Watch Video" />
             </a>
           </div>
           <div className="cta hidden md:block md:w-[170px] md:pb-4 lg:w-[190px] lg:pb-9">
-            <a href="">
-            <img src={ctaVideo} layout='intrinsic' alt="Watch Video "/>
+            <a href="#">
+            <img src={ctaVideo} alt="Watch Video "/>
             </a>
           </div>
           <div className="badgeMob text-center md:text-left lg:hidden">
             <div className="apple lg:hidden pr-5 inline-block">
-            <a href="#"><Image src={appleBadgeMob} width={92} height={30} alt="Apple"/></a>
+            <a href="#"><img src={appleBadgeMob} width={92} height={30} alt="Apple"/></a>
             </div>
             <div className="google inline-block">
-            <a href="#"><Image src={googleBadgeMob} width={103} height={30} alt="Google" /></a>
+            <a href="#"><img src={googleBadgeMob} width={103} height={30} alt="Google" /></a>
             </div>
           </div>
           <div className="badge hidden text-center lg:block md:text-left">
             <div className="apple pr-7 inline-block">
-            <a href="#"><Image src={appleBadge} width={161} height={53} alt="Apple"/></a>
+            <a href="#"><img src={appleBadge} width={161} height={53} alt="Apple"/></a>
             </div>
             <div className="google inline-block">
-            <a href="#"><Image src={googleBadge} width={182} height={54} alt="Google"/></a>
+            <a href="#"><img src={googleBadge} width={182} height={54} alt="Google"/></a>
             </div>
           </div>
           <div className="phone m-auto mt-[24px] md:hidden">
-            <Image src={phone} width={335} height={590} layout='intrinsic' alt="device"/>
+            <img src={phone} width={335} height={590} alt="device"/>
           </div>
       </div>
   

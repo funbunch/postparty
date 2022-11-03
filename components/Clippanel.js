@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Image from 'next/image'
+// import Image from 'next/image'
 import clipPanelMob from '../public/img/blade3-mob@2x.png'
 import clipPanel from '../public/img/blade3.png'
 import clipImg from '../public/img/clip-img@2x.png'
@@ -15,13 +15,13 @@ export const Clippanel = () => {
       <>
         <div className="clip grid"> 
           <div className="-mt-28 z-20 self-start row-start-1 col-start-1 md:hidden">
-            <Image src={clipPanelMob} width={414} height={934} alt="" layout='intrinsic' />
+            <img src={clipPanelMob} width={414} height={934} alt="" layout='intrinsic' />
           </div>
           <div className="flex flex-col row-start-1 col-start-1 items-center z-[50] overflow-hidden md:hidden">
             <Carousel showThumbs={false} swipeable={false} width={'414px'}> 
               <div>
               <h2 className='pb-12 pl-12 text-white text-left'>Clip</h2>
-              <Image src={clipSlider} width={378} height={315} alt="We Know Greatness When We See It, Too" />
+              <img src={clipSlider} width={378} height={315} alt="We Know Greatness When We See It, Too" />
               <p className='subhead text-white text-lg text-left pl-14 pb-5'>We Know Greatness<br />When We See It, Too. 
               </p>
               <p className='text-left text-white px-14'>So, when you do something amazing, we&apos;ll ooh and awe and suggest that you clip it for posterity. You can agree with just one click.
@@ -29,7 +29,7 @@ export const Clippanel = () => {
             </div>
             <div>
               <h2 className='pb-12 pl-12 text-white text-left'>Save</h2>
-              <Image src={saveSlider} width={278} height={359}  alt="Your Vault Will Grow Quickly."/>
+              <img src={saveSlider} width={278} height={359}  alt="Your Vault Will Grow Quickly."/>
               <p className='subhead text-white text-lg text-left pl-14 pb-5'>Your Vault Will Grow Quickly. 
                 </p>
                 <p className='text-white text-left px-14'>Every video you save will be added to your personal collection.
@@ -38,14 +38,14 @@ export const Clippanel = () => {
               <div>
               <h2 className='pb-12 pl-12 text-white text-left'>Share</h2>
               <div className="img pt-16 pb-16">
-                <Image src={shareSlider} width={285} height={162} alt="Your Friends Gotta See this, too" />
+                <img src={shareSlider} width={285} height={162} alt="Your Friends Gotta See this, too" />
               </div>
               <p className='subhead text-white text-lg text-left pl-14 pb-5'>Your Friends Gotta See this, Too
                 </p>
                 <p className='text-left text-white px-14 pb-5'>Share any moment you please through your favorite social media platform (Facebook, Twitter, Instagram, etc.)
                 </p>
                 <div className="div text-left pl-12">
-                  <Image src={social} width={113} height={24} layout='intrinsic' alt="Social icons"/>
+                  <img src={social} width={113} height={24} layout='intrinsic' alt="Social icons"/>
                 </div>
             </div>
             </Carousel>
@@ -53,7 +53,7 @@ export const Clippanel = () => {
         </div>
         <div className="relative">
           <div className="-mt-[155px] hidden md:block">
-            <Image src={clipPanel} width={1920} height={957}  alt="" />
+            <img src={clipPanel} width={1920} height={957}  alt="" />
           </div>
           <div className="content-clip absolute top-2 md:top-[36%] md:left-[11%] md:w-[34%] lg:top-[35%] lg:left-[10%] lg:w-[30%]">
             <h2 className='pb-12 md:pb-4 lg:text-[55px] lg:pb-9'>Clip</h2>
@@ -63,7 +63,7 @@ export const Clippanel = () => {
             </p>
           </div>
           <div className="hidden right-col md:block absolute md:top-[31%] md:w-[34%] md:left-[52%] lg:top-[25%] xl:w-[37%]">
-            <Image src={clipImg} width={835} height={666} layout='intrinsic' alt="" />
+            <img src={clipImg} width={835} height={666} layout='intrinsic' alt="" />
           </div>  
         </div>
       </>
